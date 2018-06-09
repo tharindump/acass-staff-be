@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+			<html>
+			<head>
+			<title>JS Gallery - JSN ImageShow</title>
+			<link rel="stylesheet" href="http://www.mit.kln.ac.lk/components/com_imageshow/assets/js/lib/jquery.mobile-1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+			<link href="http://www.mit.kln.ac.lk/components/com_imageshow/assets/css/photoswipe.css" type="text/css" rel="stylesheet" />
+			<script type="text/javascript" src="http://www.mit.kln.ac.lk/components/com_imageshow/assets/js/lib/jquery-1.6.1.min.js"></script>
+			<script type="text/javascript" src="http://www.mit.kln.ac.lk/components/com_imageshow/assets/js/lib/jquery.mobile-1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+			<script type="text/javascript" src="http://www.mit.kln.ac.lk/components/com_imageshow/assets/js/lib/simple-inheritance.min.js"></script>
+			<script type="text/javascript" src="http://www.mit.kln.ac.lk/components/com_imageshow/assets/js/lib/jquery.animate-enhanced.min.js"></script>
+			<script type="text/javascript" src="http://www.mit.kln.ac.lk/components/com_imageshow/assets/js/code-photoswipe-jQuery-1.0.10.min.js"></script>
+<script type="text/javascript">
+
+							$(document).ready(function()
+							{
+								$("div.gallery-page").live("pageshow", function(e)
+								{
+									Code.PhotoSwipe.Current.addEventListener(Code.PhotoSwipe.EventTypes.onBeforeHide, function(e){
+										document.location = "http://www.mit.kln.ac.lk/";
+									});
+
+									$("div.gallery a", e.target).photoSwipe({ backButtonHideEnabled: false });
+
+									$("#jsnis-js-gallery-link-index-SIXQPa").trigger("click");
+
+									return true;
+
+								}).queue(function(){
+									$("#jsnis-slide-gallery-header-SIXQPa").trigger("click");
+								});
+
+							});
+						</script>
+						</head>
+						<body>
+							<div data-role="page" id="Home">
+								<div data-role="content">
+									<ul data-role="listview" data-insert="true">
+										<li><a id="jsnis-slide-gallery-header-SIXQPa" href="#jsnis-slide-gallery-SIXQPa">JS Gallery</a></li>
+									</ul>
+								</div>
+							</div>
+							<div data-role="page" id="jsnis-slide-gallery-SIXQPa" class="gallery-page">
+							<div data-role="header">
+								<h1>TEST</h1>
+							</div>
+							<div data-role="content">
+								<div class="gallery">
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_4_dimbuilding.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_1_scse.jpg"></a>
+<a rel="external"  id="jsnis-js-gallery-link-index-SIXQPa"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_2_vcawards.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_7_rnd.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_5_hackx2017.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_6_klabs.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_8_kcombat.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_9_haxmas.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_10_cctw.jpg"></a>
+<a rel="external"  href="http://www.mit.kln.ac.lk/images/stories/imageshow/2017/ishow2017_11_dim50.jpg"></a>
+</div></div></div></body></html>
