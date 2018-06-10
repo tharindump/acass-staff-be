@@ -16,19 +16,24 @@ if __name__ == '__main__':
         classifier = _pickle.load(f)
 
     bow = count_words()
-    features = []
 
-    print('Sending request....')
-    test_page = requests.get('http://www.sjp.ac.lk/staff/')
-    print('Page received...')
-    formatted_page = clean_page(test_page.content)
-    words_list = word_tokenize(formatted_page)
+    while True:
+        inp = input('>> ')
+        if inp == "exit":
+            break
 
-    for word in bow:
-        features.append(words_list.count(word[0]))
+        print('Sending request to %s....'%inp)
+        test_page = requests.get(inp)
+        print('Page received...')
+        formatted_page = clean_page(test_page.content)
+        words_list = word_tokenize(formatted_page)
 
-    print('Predicting result...')
-    predicted_result = classifier.predict([features])
-    print(predicted_result)
+        features = []
+        for word in bow:
+            features.append(words_list.count(word[0]))
+
+        print('Predicting result...')
+        predicted_result = classifier.predict([features])
+        print(predicted_result)
 
 
