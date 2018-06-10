@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>XbotiX 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/skins/red.css" />
+
+    <!-- Revolution Slider CSS Files -->
+    <link rel="stylesheet" type="text/css" href="js/plugins/revolution/css/settings.css" />
+    <link rel="stylesheet" type="text/css" href="js/plugins/revolution/css/layers.css" />
+    <link rel="stylesheet" type="text/css" href="js/plugins/revolution/css/navigation.css" />
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Template JS Files -->
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-git.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_j85EIFocwP8p7CWo6R0W8");
+    })();
+    </script>
+
+</head>
+
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+</style>
+
+
+
+<body class="double-diagonal dark">
+    <!-- Preloader Starts -->
+    <div class="preloader" id="preloader">
+        <div class="logopreloader">
+            <img src="img/styleswitcher/logos/logos-dark/red.png" alt="logo-black">
+        </div>
+        <div class="loader" id="loader"></div>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- Live Style Switcher Starts - demo only -->
+    <div id="switcher" class="">
+        <div class="content-switcher">
+            <h4>STYLE SWITCHER</h4>
+            <!-- <ul>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blue'); document.getElementById('logo-light').src='img/styleswitcher/logos/blue.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/blue.png';" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blueviolet'); document.getElementById('logo-light').src='img/styleswitcher/logos/blueviolet.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/blueviolet.png';" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('goldenrod'); document.getElementById('logo-light').src='img/styleswitcher/logos/goldenrod.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/goldenrod.png';" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('green'); document.getElementById('logo-light').src='img/styleswitcher/logos/green.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/green.png';" title="green" class="color"><img src="img/styleswitcher/green.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('magenta'); document.getElementById('logo-light').src='img/styleswitcher/logos/magenta.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/magenta.png';" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('orange'); document.getElementById('logo-light').src='img/styleswitcher/logos/orange.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/orange.png';" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('purple'); document.getElementById('logo-light').src='img/styleswitcher/logos/purple.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/purple.png';" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('red'); document.getElementById('logo-light').src='img/styleswitcher/logos/red.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/red.png';" title="red" class="color"><img src="img/styleswitcher/red.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellow'); document.getElementById('logo-light').src='img/styleswitcher/logos/yellow.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/yellow.png';" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="" width="30" height="30" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellowgreen'); document.getElementById('logo-light').src='img/styleswitcher/logos/yellowgreen.png'; document.getElementById('logo-dark').src='img/styleswitcher/logos/logos-dark/yellowgreen.png';" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="" width="30" height="30" /></a>
+                </li>
+            </ul> -->
+
+            <p>BODY SKIN</p>
+
+            <label><input class="dark_switch" type="radio" name="color_style" id="is_light" value="light" /> Light</label>
+            <label><input class="dark_switch" type="radio" name="color_style" id="is_dark" value="dark" checked="checked" /> Dark</label>
+
+            <hr />
+
+            <p>LAYOUT STYLE</p>
+            <label><input class="boxed_switch" type="radio" name="layout_style" id="is_wide" value="wide" checked="checked" /> Wide</label>
+            <label><input class="boxed_switch" type="radio" name="layout_style" id="is_boxed" value="boxed" /> Boxed</label>
+
+            <hr />
+
+            <p class="separator">SEPARATOR <span class="hot">HOT</span></p>
+            <span class="info">Select and scroll to see the changes</span>
+            <label><input class="separator_switch" type="radio" name="separator_style" id="is_normal" value="normal" /> <img alt="separator" width="20" height="20" src="img/styleswitcher/separators/1.jpg" /></label>
+            <label><input class="separator_switch" type="radio" name="separator_style" id="is_skew" value="skew" /> <img alt="separator" width="20" height="20" src="img/styleswitcher/separators/2.jpg" /></label>
+            <label><input class="separator_switch" type="radio" name="separator_style" id="is_reversed_skew" value="reversed-skew" /> <img alt="separator" width="20" height="20" src="img/styleswitcher/separators/3.jpg" /></label>
+            <label><input class="separator_switch" type="radio" name="separator_style" id="is_double_diagonal" value="double-diagonal" checked="checked" /> <img alt="separator" width="20" height="20" src="img/styleswitcher/separators/4.jpg" /></label>
+            <label><input class="separator_switch" type="radio" name="separator_style" id="is_big_triangle" value="big-triangle" /> <img alt="separator" width="20" height="20" src="img/styleswitcher/separators/5.jpg" /></label>
+
+            <hr />
+
+            <a href="https://themeforest.net/item/salimo-creative-one-page-template/19128817?ref=celtano" class="custom-button purchase">Purchase</a>
+            <div id="hideSwitcher">&times;</div>
+
+        </div>
+    </div>
+    
+    <!-- Live Style Switcher Ends - demo only -->
+    <!-- Page Wrapper Starts -->
+    <div class="wrapper">
+        <!-- Header Starts -->
+        <header id="header" class="header">
+            <div class="header-inner">
+                <!-- Logo Starts -->
+                <div class="logo">
+                    <a class="scroll-to-target" href="#mainslider">
+                        <!-- Logo White Starts -->
+                        <img  src="img/logo/logolong.png" />
+                        <!-- Logo White Ends -->
+                        <!-- Logo Black Ends -->
+                      <!--  <img src="\img\styleswitcher\logos\logos-dark\red.png"  /> 	-->
+                        <!-- Logo Black Ends -->
+                    </a>
+                </div>
+                <!-- Logo Ends -->
+                <!-- Navigation Icon Starts -->
+                <div class="nav-menu-icon">
+                    <a>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <!-- Navigation Icon Ends -->
+                <!-- Navigation Menu Starts -->
+                <nav class="nav-menu singlepage-nav" id="singlepage-nav">
+                    <ul class="nav-menu-inner">
+                      <li><a href="#mainslider"><em class="fa fa-home"></em> home</a></li>
+                      <li><a href="#about"><i class="fa fa-user"></i> about</a></li>
+                      <li><a href="#services"><em class="fa fa-file-text-o"></em> Register</a></li>
+                      
+                      <li><a href="#blog"><em class="fa fa-newspaper-o"></em> Previous Events</a></li>
+                      <li><a href="#contact"><i class="fa fa-envelope"></i> contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Navigation Menu Ends -->
+            </div>
+        </header>
+        <!-- Main Slider Section Starts -->
+        <section class="mainslider" id="mainslider">
+            <article class="content">
+                <div id="rev_slider_6_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                    <ul>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/revolution-slider/content-tabs/thumb1.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="WE ARE SALIMO" data-param1="May 24, 2015" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="img/revolution-slider/content-tabs/content-tabs1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption NotGeneric-Title   tp-resizeme" id="slide-24-layer-6" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['top','top','top','top']" data-voffset="['250','250','250','250']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1000;e:Power2.easeIn;s:1000;e:Power2.easeIn;" data-start="500" data-splitin="chars" data-splitout="none" data-basealign="slide" data-responsive_offset="on" data-elementdelay="0.03" style="z-index: 5; white-space: nowrap; font-size: 40px; line-height: 40px;"><font color="#FF0000">X</font>boti<font color="#FF0000">X</font> 2017
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Photography-Textblock   tp-resizeme" id="slide-24-layer-8" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['top','top','top','top']" data-voffset="['320','320','320','320']" data-width="350" data-height="150" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1000;e:Power2.easeIn;s:1000;e:Power2.easeIn;" data-start="500" data-splitin="chars" data-splitout="none" data-basealign="slide" data-responsive_offset="on" data-elementdelay="0.01" style="z-index: 7; min-width: 350px; max-width: 350px; max-width: 150px; max-width: 150px; white-space: normal; font-size: 15px; line-height: 25px;">Are You Ready?
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['180','97','90','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off" style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><a href="#services" class="custom-button slider-button scroll-to-target">Register Now</a></div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/revolution-slider/content-tabs/thumb1.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="WE ARE CREATIVE" data-param1="May 24, 2015" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="img/revolution-slider/content-tabs/content-tabs2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption NotGeneric-Title   tp-resizeme" id="slide-24-layer-6" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['top','top','top','top']" data-voffset="['250','250','250','250']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1000;e:Power2.easeIn;s:1000;e:Power2.easeIn;" data-start="500" data-splitin="chars" data-splitout="none" data-basealign="slide" data-responsive_offset="on" data-elementdelay="0.03" style="z-index: 5; white-space: nowrap; font-size: 40px; line-height: 40px;">XbotiX 2017
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Photography-Textblock   tp-resizeme" id="slide-24-layer-8" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['top','top','top','top']" data-voffset="['320','320','320','320']" data-width="350" data-height="150" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1000;e:Power2.easeIn;s:1000;e:Power2.easeIn;" data-start="500" data-splitin="chars" data-splitout="none" data-basealign="slide" data-responsive_offset="on" data-elementdelay="0.01" style="z-index: 7; min-width: 350px; max-width: 350px; max-width: 150px; max-width: 150px; white-space: normal; font-size: 15px; line-height: 25px;">Organized by Faculty of Engineering, University of Ruhuna
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['180','97','90','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off" style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><a href="#services" class="custom-button slider-button scroll-to-target">Register Now</a></div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/revolution-slider/content-tabs/thumb1.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="WE ARE LEADERS" data-param1="May 24, 2015" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="img/revolution-slider/content-tabs/content-tabs3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption NotGeneric-Title   tp-resizeme" id="slide-24-layer-6" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['top','top','top','top']" data-voffset="['250','250','250','250']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1000;e:Power2.easeIn;s:1000;e:Power2.easeIn;" data-start="500" data-splitin="chars" data-splitout="none" data-basealign="slide" data-responsive_offset="on" data-elementdelay="0.03" style="z-index: 5; white-space: nowrap; font-size: 40px; line-height: 40px;">XbotiX 2017
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Photography-Textblock   tp-resizeme" id="slide-24-layer-8" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['top','top','top','top']" data-voffset="['320','320','320','320']" data-width="350" data-height="150" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1000;e:Power2.easeIn;s:1000;e:Power2.easeIn;" data-start="500" data-splitin="chars" data-splitout="none" data-basealign="slide" data-responsive_offset="on" data-elementdelay="0.01" style="z-index: 7; min-width: 350px; max-width: 350px; max-width: 150px; max-width: 150px; white-space: normal; font-size: 15px; line-height: 25px;">Hurry Up, Register Now!
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['180','97','90','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:100px;sX:1;sY:1;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;e:Power2.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off" style="z-index: 11; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><a href="#services" class="custom-button slider-button scroll-to-target">Register Now</a></div>
+                        </li>
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
+                <!-- END REVOLUTION SLIDER -->
+                <script type="text/javascript">
+                </script>
+            </article>
+        </section>
+        <!-- Main Slider Section Ends -->
+        <!-- About Section Starts -->
+        <section id="about" class="about">
+            <!-- Container Starts -->
+            <div class="container">
+                <!-- Main Heading Starts -->
+                <div class="text-center top-text">
+                  <h1><span>About</span> Event</h1>
+               <!---   <h4>Who We Are</h4>	--->
+                </div>
+                <!-- Main Heading Ends -->
+                <!-- Divider Starts -->
+                <div>
+                    <hr class="custom about-hr">
+                </div>
+                <!-- Divider Ends -->
+                <!-- About Content Starts -->
+                <div class="about-content">
+                    <div class="col-sm-12 col-md-6 about-left-side">
+                        <h3 class="title-about">XBOTIX <strong>2017</strong></h3>
+                        <hr>
+                        <p>XbotiX 2017 is the robotic competition organized by Electrical and Information Engineering Society (EIES) in collaboration with IEEE Student Branch &#x2C IET Ruhuna Chapter and Mechanical and Manufacturing Engineering Student Society (MMESS) University of Ruhuna are excited to announce the event ‘XbotiX2017’ which will be held at the premises of Faculty of Engineering, University of Ruhuna, Galle on 4th of October 2017. This is an event in which the best young minds in the country are competing head to head to accomplish a unique goal using self-designed robots. </p>
+                        <p>Both undergraduates and school level students are invited to compete through separate categories. Teams are challenged to design, build and program robots to perform a specified task under competition rules and time limits.</p>
+                        
+                      <!--  <a class="custom-button scroll-to-target" href="#portfolio">Our Portfolio</a>	-->
+                    </div>
+                    <div class="col-md-6 about-right-side">
+                        <div >
+                           <iframe  marginheight="50" width="712" height="400" frameborder="0" src="https://www.youtube.com/embed/HQ-pcpAx4wU">
+                            </iframe>
+                      <!--      <img class="img-responsive" src="img/about.jpg" alt="">	-->
+                            
+                             
+                              <!--  <h3>Why <strong>Choose Us</strong></h3>
+                                <ul class="list-why-choose-us">
+                                    <li>Clean Code & Design</li>
+                                    <li>Responsive Layout</li>
+                                    <li>Powerful Documentation</li>
+                                    <li>Browser Compatibility</li>
+                                    <li>Easy Customization</li>
+                                    <li>& Much More ...</li>
+                                </ul>	-->
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- About Content Ends -->
+            </div>
+            <!-- Container Ends -->
+        </section>
+        <!-- About Section Ends -->
+        <!-- Project Manager Section Starts -->
+        <section class="projectmanager" id="projectmanager">
+            <!-- Section Overlay Starts -->
+            <div class="section-overlay">
+                <!-- Container Starts -->
+                <div class="container">
+                    <!-- Image Starts -->
+                    <div class="col-md-5">
+                        <img class="img-responsive projectmanagerpicture" src="img/competition.jpg" alt="project manager">
+                    </div>
+                    <!-- Image Ends -->
+                    <!-- Details Starts -->
+                    <div class="col-md-6 col-md-offset-1">
+                        <h1>Competition</h1>
+                        <h3>XbotiX 2017</h3>
+                        <p>
+                            All the participants are advised to read carefully and understand the task and all the rules of the competition based on their category. You can download specification documents in Game Task area. If any participant or a team encounters difficulties in understanding the rules and regulations, please contact the organizing committee for your support.
+                        </p>
+                        <br/>
+                        
+                        <h4>GUEST OF HONOUR</h4>
+                        
+                        	Senior Prof S.G.J.N. Senanayake, The Vice-Chancellor of University of Ruhuna
+                        <br/>
+                        
+                       
+                        <!-- Social Media Starts -->
+                        <div class="social-icons">
+                            <ul class="social">
+                                
+                                <li>
+                                    <a class="facebook" href="https://www.facebook.com/XbotiX/" title="facebook"></a>
+                                </li>
+                               
+                                
+                                <li>
+                                    <a class="youtube" href="https://www.youtube.com/channel/UCrDM4vK3fbY4nUAc4gkQMcA" title="youtube"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Social Media Ends -->
+                    </div>
+                    <!-- Details Ends -->
+                </div>
+                <!-- Container Ends -->
+            </div>
+        </section>
+        <!-- Project Manager Section Ends -->
+        <!-- Services Section Starts -->
+        <section id="services" class="services">
+            <!-- Container Starts -->
+            <div class="container">
+                <!-- Main Heading Starts -->
+                <div class="text-center top-text">
+                    <h1><span>Register</span> Now</h1>
+                    
+                </div>
+                <!-- Main Heading Starts -->
+                <!-- Divider Starts -->
+                <div>
+                    <hr class="custom services-hr">
+                </div>
+                <!-- Divider Ends -->
+                <!-- Services Starts -->
+                <div class="services-box col-md-12">
+
+                    <!-- Service Item Starts -->
+                    <div class="col-md-6 col-sm-6 services-box-item">
+                        <!-- Service Item Cover Starts -->
+                        <span class="services-box-item-cover fa fa-graduation-cap" data-headline="Undergraduate"></span>
+                        <!-- Service Item Cover Ends -->
+                        <!-- Service Item Content Starts -->
+                        <div class="services-box-item-content fa fa-graduation-cap">
+                            <h2><strong>Undergraduate</strong></h2>
+                            <div class="pricing-padding">
+                            <span>
+                            <a class="custom-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfrCbm3_fKzWPNcQAmT3YciSldOvxUQ0jz__mx_z3gvHsMyjQ/viewform">Register now</a>
+                            </span>
+                            <h6>Game Task</h6>
+                            <ul>
+                            <p>Download the hardcopy of the Game Task. <a href="Task/xbotix2017ugtask.pdf">Click here to download</a>
+                            </p>
+                            </ul>
+                            <h6>Awards</h6>
+                            <ul>
+                            <p>All the participants will be awarded a participation certificate. The cash prizes for the
+                            winners will be as follows.</p>
+                            <p>
+                            <font color="#FF0000">Winners 50,000 LKR</font><br>
+                            <font color="#FF0000">Runner-up	30,000 LKR</font><br>
+                            <font color="#FF0000">Second Runner-up	20,000 LKR</font></p>
+                            </ul>
+                            <h6>Registration</h6>
+                            <ul>
+                            <p>Fill in the online registration form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrCbm3_fKzWPNcQAmT3YciSldOvxUQ0jz__mx_z3gvHsMyjQ/viewform">[Click here]</a>. Download the
+                            hardcopy of the application.<a href="application_form/xbotix_2017_ug_application.pdf">[Click here to download]</a> and fill it in. Take copies
+                            of campus ID's of all your team members & attach it to the application form. Get the application
+                            form certified by your head of the Department OR your faculty Dean. Post us all documents (copies of members ID's & certified application form) via registered post to...
+                            <br>
+							</p>
+							<p></p>
+							<p>Mr. Tharindu Janaraj,<br>
+                            Co-ordinator XbotiX 17,<br>
+                            Faculty of Engineering, <br>
+                            University of Ruhuna,<br>
+                            Hapugala,<br>
+                            Galle.<br>
+                            Or .. E-mail scanned copies of the above documents to eiesruhuna@gmail.com
+                            </p></ul>
+                        </div>
+                            
+                        </div>
+                        <!-- Service Item Content Ends -->
+                    </div>
+                    <!-- Service Item Ends -->
+
+                    <!-- Service Item Starts -->
+                    <div class="col-md-6 col-sm-6 services-box-item">
+                        <!-- Service Item Cover Starts -->
+                        <span class="services-box-item-cover fa fa-user-o" data-headline="School" width:100px></span>
+                        <!-- Service Item Cover Ends -->
+                        <!-- Service Item Content Starts -->
+                        <div class="services-box-item-content fa fa-user-o">
+                            <h2><strong>School</strong></h2>
+                            <div class="pricing-padding">
+                            <span><a class="custom-button" href="https://docs.google.com/forms/d/e/1FAIpQLScKNeErVJpDf1SZhuKVuGiiAtM4k-aeeuWAbrbYc3VX4GSA3g/viewform">Register now</a>
+                            </span>
+                            <h6>Game Task</h6>
+                            <ul>
+                            <p>Download the hardcopy of the Game Task. <a href="Task/xbotix2017scholtask.pdf">Click here to download</a>
+                            </p>
+                            </ul>
+                            <h6>Awards</h6>
+                            <ul>
+                            <p>All the participants will be awarded a participation certificate. The cash prizes for the
+                            winners will be as follows.</p>
+                            <p>
+                            <font color="#FF0000">Winners 25,000 LKR</font><br>
+                            <font color="#FF0000">Runner-up	15,000 LKR</font><br>
+                            <font color="#FF0000">Second Runner-up	10,000 LKR</font></p>
+                            </ul>
+                            <h6>Registration</h6>
+                            <ul>
+                            <p>Fill the online registration form <a href="https://docs.google.com/forms/d/e/1FAIpQLScKNeErVJpDf1SZhuKVuGiiAtM4k-aeeuWAbrbYc3VX4GSA3g/viewform">[Click here]</a>. Download the
+                            hardcopy of the application.<a href="application_form/xbotix_2017_school_application.pdf">[Click here to download]</a> and fill it in. Take photo copies of the postal/National ID's of all your team members & attach it to the application form. Get the application
+                            form certified by your head of the Department OR your faculty Dean. Post us all documents (copies of members ID's & certified application form) via registered post to...
+							</p>
+							
+							<p>Mr. Niamatha Madhushan,<br>
+                            Co-ordinator XbotiX 17,<br>
+                            Faculty of Engineering, <br>
+                            University of Ruhuna,<br>
+                            Hapugala,<br>
+                            Galle.<br>
+                            Or .. E-mail scanned copies of the above documents to eiesruhuna@gmail.com
+                            </p></ul>
+                        </div>
+                        </div>
+                        <!-- Service Item Content Ends -->
+                    </div>
+                    <!-- Service Item Ends -->
+
+                    
+
+                </div>
+                <!-- Services Ends -->
+            </div>
+        </section>
+        <!-- Services Section Ends -->
+        <!-- Testimonials Section Starts -->
+        <section class="testimonials">
+            
+                <!-- Container Ends -->
+            </div>
+        </section>
+        <!-- Testimonials Section Ends -->
+       
+        <!-- Facts Section Starts -->
+        <section class="facts">
+            <div class="section-overlay">
+                <!-- Container Starts -->
+                <div class="container">
+                    <!-- Main Heading Starts -->
+                    <div class="text-center top-text">
+                        <h1><span>Count</span>Down</h1>
+                       
+                    </div>
+                    <!-- Main Heading Starts -->
+                    <!-- Fact Badges Starts -->
+                    <div class="fact-badges">
+                        <!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 4, 2017 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+                    </div>
+                    <!-- Fact Badges Ends -->
+                </div>
+                <!-- Container Ends -->
+            </div>
+        </section>
+        <!-- facts Section Ends -->
+        <!-- Team Section Starts -->
+        
+        <!-- Team Section Ends -->
+        <!-- Newsletter Section Starts -->
+       
+        <!-- Newsletter Section Ends -->
+        <!-- Blog Section Starts -->
+        <section id="blog" class="blog">
+            <!-- Container Starts -->
+            <div class="container">
+                <!-- Main Heading Starts -->
+                <div class="text-center top-text">
+                    <h1><span>Previous</span> Events</h1>
+                    
+                </div>
+                <!-- Main Heading Starts -->
+                <!-- Divider Starts -->
+                <div>
+                    <hr class="custom blog-hr">
+                </div>
+                <!-- Divider Ends -->
+                <!-- Latest Blog Posts Starts -->
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	-->
+<body>
+
+<h2 class="w3-center" align="center">Gallery</h2>
+
+<div class="w3-content w3-display-container">
+  <img id="imgGallery" class="mySlides" src="img\gallery\2014\1.jpg" style="width:100%">
+
+  
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+    var imgY=2014;
+    var imgNo=1;
+
+    function plusDivs(i) {
+        imgNo+=i;
+        if(imgNo===19& imgY===2014){
+            imgNo=1;
+            imgY=2015
+        }else if(imgNo===19  & imgY===2015){
+            imgNo=1;
+            imgY=2016;
+        }else if(imgNo===19 & imgY===2016){
+            imgNo=1;
+            imgY=2014;
+        }else if(imgNo===0 & imgY===2016){
+            imgNo=19;
+            imgY=2015;
+        }else if(imgNo===0 & imgY===2015){
+            imgNo=19;
+            imgY=2014;
+        }else if(imgNo===0 & imgY===2014){
+            imgNo=19;
+            imgY=2016;
+        }
+
+        $("#imgGallery").attr("src","http://eie.eng.ruh.ac.lk/XbotiX/img/gallery/"+imgY+"/"+imgNo+".jpg");
+
+    }
+
+
+</script>
+
+</body>
+               
+
+                <!-- Latest Blog Posts Ends -->
+            </div>
+        </section>
+        <!-- Blog Section Ends -->
+        <!-- Video Section Starts -->
+        
+        <!-- Video Section Ends -->
+        <!-- Contact Section Starts -->
+        <section id="contact" class="contact">
+            <!-- Container Starts -->
+            <div class="container">
+                <!-- Main Heading Starts -->
+                <div class="text-center top-text">
+                    <h1><span>Contact</span> Us</h1>
+                   
+                </div>
+                <!-- Main Heading Starts -->
+                <!-- Divider Starts -->
+                <div>
+                    <hr class="custom contact-hr">
+                </div>
+                <!-- Divider Ends -->
+            </div>
+            <!-- Container Ends -->
+            <!-- Map Section Starts -->
+            <div class="info-map">
+                <div class="google-map">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBpN0oc0NeZv9JolJSIzQRNW9IkUOfKrxw'></script>
+                    <div class="gmap_container">
+                        <div id="gmap_canvas"></div>
+                    </div>
+                    <script type="text/javascript">
+						(function () {
+							 "use strict";
+							function init_map() {
+								
+								var myOptions = {
+									scrollwheel: false,
+									zoom: 12,
+									center: new google.maps.LatLng(6.0817161, 80.1894463),
+									mapTypeId: google.maps.MapTypeId.ROADMAP
+								};
+								var map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+								var marker = new google.maps.Marker({
+									map: map,
+									icon: "img/markers/red.png",
+									position: new google.maps.LatLng(6.0817161, 80.1894463)
+								});
+								var infowindow = new google.maps.InfoWindow({
+									content: "<strong>XBOTIX 2017</strong><br>Faculty of Engineering, University of Ruhuna<br>"
+								});
+								google.maps.event.addListener(marker, "click", function() {
+									infowindow.open(map, marker);
+								});
+							}
+							
+							google.maps.event.addDomListener(window, "load", init_map);
+						})(jQuery);
+                    </script>
+                </div>
+            </div>
+            <!-- Info Map Boxes Starts -->
+            <div class="container">
+                <div class="info-map-boxes">
+                    <!-- Left Info Map Box Starts -->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="info-map-boxes-item fa fa-address-card-o">
+                            <h1>Undergraduate</h1>
+                            <p>Keshawa Dadallage - 0712444630
+							    <br> Tharindu Janaraj - 0719265920
+                                <br>Vindana Isuru -  0775225498
+                                
+                                <br><a href="#">eiesruhuna@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <!-- Left Info Map Box Ends -->
+                    <!-- Right Info Map Box Starts -->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="info-map-boxes-item fa fa-address-card-o">
+                            <h1>School</h1>
+                            <p>Niamatha Madhushan - 0719135983
+                                <br>Ruchira Lakshan - 0717281375
+                                <br><a href="#">eiesruhuna@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <!-- Right Info Map Box Ends -->
+                </div>
+            </div>
+            <!-- Info Map Boxes Ends -->
+        </section>
+        <!-- Contact Section Ends -->
+        <!-- Contact Form Section Starts -->
+        <section class="contactform">
+            <div class="section-overlay">
+                <div class="container">
+                    <!-- Main Heading Starts -->
+                    <div class="text-center top-text">
+                        <h1><span>Send Us</span> an email</h1>
+                       
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="form-container">
+                        <!-- Contact Form Starts -->
+                        <form role="form" id="contactForm" data-toggle="validator">
+                            <div class="form-inputs">
+                                <!-- First Name Field Starts -->
+                                <div class="col-md-6 form-group custom-form-group">
+                                    <span class="input custom-input">
+										<input placeholder="Your First Name" class="input-field custom-input-field" id="firstname" type="text" required data-error="NEW ERROR MESSAGE">
+										<label class="input-label custom-input-label" >
+											<i class="fa fa-user icon icon-field"></i>
+										</label>
+									</span>
+                                </div>
+                                <!-- First Name Field Ends -->
+                                <!-- Last Name Field Starts -->
+                                <div class="col-md-6 form-group custom-form-group">
+                                    <span class="input custom-input">
+										<input placeholder="Your Last Name" class="input-field custom-input-field" id="lastname" type="text" required>
+										<label class="input-label custom-input-label" >
+											<i class="fa fa-user-o icon icon-field"></i>
+										</label>
+									</span>
+                                </div>
+                                <!-- Last Name Field Ends -->
+                                <!-- Message Field Starts -->
+                                <div class="form-group custom-form-group col-md-12">
+                                    <textarea placeholder="Your Message" id="message" name="message" cols="45" rows="7" required></textarea>
+                                </div>
+                                <!-- Message Field Ends -->
+                                <!-- Email Name Field Starts -->
+                                <div class="col-md-6 form-group custom-form-group">
+                                    <span class="input custom-input">
+										<input placeholder="Your Email" class="input-field custom-input-field" id="email" type="text" required>
+										<label class="input-label custom-input-label" >
+											<i class="fa fa-envelope icon icon-field"></i>
+										</label>
+									</span>
+                                </div>
+                                <!-- Email Name Field Ends -->
+                                <!-- Submit Button Starts -->
+                                <div class="col-md-6 submit-form">
+                                    <button onclick="sendEmail()" id="form-submit" name="submit" type="submit" class="custom-button" title="Send">Send Message</button>
+                                </div>
+                                <!-- Submit Button Ends -->
+                                <!-- Form Submit Message Starts -->
+                                <div id="msgSubmit" class="hidden"></div>
+                                <!-- Form Submit Message Ends -->
+                            </div>
+                        </form>
+                        <!-- Contact Form Ends -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Form Section Ends -->
+        <!-- Logos Section Starts -->
+        <section class="logos">
+            <div class="container">
+                <ul class="bxslider" id="bxslider">
+                    <!-- Logos Items Starts -->
+                    <li><img src="img/logos-slider/3docean-light-background.png" alt="IEEE"></li>
+                    <li><img src="img/logos-slider/activeden-light-background.png" alt="EIES"></li>
+                    <li><img src="img/logos-slider/audiojungle-light-background.png" alt="XBOTIX"></li>
+                    <li><img src="img/logos-slider/codecanyon-light-background.png" alt="IET"></li>
+                    <li><img src="img/logos-slider/graphicriver-light-background.png" alt="MMES"></li>
+                    <li><img src="img/logos-slider/logo6.png" alt="QUANSER"></li>
+                    <li><img src="img/logos-slider/logo7.png" alt="FARNELL"></li>
+                    <li><img src="img/logos-slider/logo8.png" alt="ORANGE"></li>
+                    <li><img src="img/logos-slider/logo9.png" alt="HUAWEI"></li>
+                     <li><img src="img/logos-slider/logo10.png" alt="LUMINEX"></li>
+                    
+                    <!-- Logos Items Ends -->
+                </ul>
+            </div>
+        </section>
+        <!-- Logos Section Ends -->
+        <!-- Footer Section Starts -->
+        <footer class="footer text-center">
+            <!-- Container Starts -->
+            <div class="container">
+                <!-- Copyright Text Starts -->
+                <p>Faculty of Engineering, University of Ruhuna</p>
+                <p>
+                   All Rights Reserved. © 2017
+                   
+                </p>
+                <!-- Copyright Text Ends -->
+                <!-- Social Media Links Starts -->
+                <div class="social-icons">
+                    <ul class="social">
+                        
+                        <li>
+                            <a class="facebook" href="https://www.facebook.com/XbotiX/" title="facebook"></a>
+                        </li>
+                       
+                        
+                       
+                        
+                        <li>
+                            <a class="youtube" href="https://www.youtube.com/channel/UCrDM4vK3fbY4nUAc4gkQMcA"" title="youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Social Media Links Ends -->
+            </div>
+            <!-- Container Ends -->
+        </footer>
+        <!-- Footer Section Starts -->
+        <!-- Back To Top Starts -->
+        <div id="back-top-wrapper" class="hidden-xs">
+            <p id="back-top">
+                <a href="index.html#top"><span></span></a>
+            </p>
+        </div>
+        <!-- Back To Top Ends -->
+    </div>
+    <!-- Wrapper Ends -->
+
+    <!-- Template JS Files -->
+    <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.filterizr.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.singlePageNav.min.js"></script>
+    <script type="text/javascript" src="js/validator.min.js"></script>
+    <script type="text/javascript" src="js/form-scripts.js"></script>
+
+    <!-- Revolution Slider Main JS Files -->
+    <script type="text/javascript" src="js/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- Revolution Slider Extensions -->
+
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="js/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <!-- Live Style Switcher JS File - only demo -->
+    <script type="text/javascript" src="js/styleswitcher.js"></script>
+
+    <!-- Main JS Initialization File -->
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <!-- Revolution Slider Initialization Starts -->
+    <script type="text/javascript">
+        (function() {
+            "use strict";
+            var tpj = jQuery;
+            var revapi6;
+            tpj(document).ready(function() {
+                if (tpj("#rev_slider_6_1").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#rev_slider_6_1");
+                } else {
+                    revapi6 = tpj("#rev_slider_6_1").show().revolution({
+                        sliderType: "standard",
+                        jsFileLocation: "../../revolution/js/",
+                        sliderLayout: "fullscreen",
+                        dottedOverlay: "none",
+                        delay: 9000,
+                        navigation: {
+                            keyboardNavigation: "off",
+                            keyboard_direction: "horizontal",
+                            mouseScrollNavigation: "off",
+                            onHoverStop: "off",
+                            touch: {
+                                touchenabled: "on",
+                                swipe_threshold: 75,
+                                swipe_min_touches: 1,
+                                swipe_direction: "horizontal",
+                                drag_block_vertical: false
+                            },
+                            bullets: {
+                                enable: true,
+                                hide_onmobile: false,
+                                style: "hermes",
+                                hide_onleave: false,
+                                direction: "vertical",
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 30,
+                                v_offset: 0,
+                                space: 10,
+                                tmp: ''
+                            }
+                        },
+                        responsiveLevels: [1240, 1024, 778, 480],
+                        gridwidth: [1024, 850, 778, 480],
+                        gridheight: [600, 500, 450, 400],
+                        lazyType: "none",
+                        shadow: 0,
+                        spinner: "off",
+                        stopLoop: "on",
+                        stopAfterLoops: 0,
+                        stopAtSlide: 1,
+                        shuffle: "off",
+                        autoHeight: "off",
+                        disableProgressBar: "on",
+                        hideThumbsOnMobile: "off",
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        debugMode: false,
+                        fallbacks: {
+                            simplifyAll: "off",
+                            nextSlideOnWindowFocus: "off",
+                            disableFocusListener: false,
+                        }
+                    });
+                }
+            });
+        })(jQuery);
+    </script>
+    
+    
+<script>
+function sendEmail(){
+    var fname  = document.getElementById('firstname').value;
+    var lname  = document.getElementById('lastname').value;
+    var name   = fname+" "+lname;
+    var message  = document.getElementById('message').value;
+    var email  = document.getElementById('message').value;
+
+    
+  var result=  emailjs.send("gmail","template_PflVzVyv",{from_name: name, message_html: message ,from_email:email});
+}
+
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    <!-- Revolution Slider Initialization Ends -->
+</body>
+
+</html>
