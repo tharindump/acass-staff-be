@@ -1,0 +1,11 @@
+Date: Mon, 11 Jun 2018 14:00:12 GMT
+Server: Apache/2.2.15 (CentOS)
+X-Powered-By: PHP/5.4.17
+Set-Cookie: Horde=o802scdafb40q980ua9pfcp8m7; path=/; domain=webmail.mrt.ac.lk; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: https://webmail.mrt.ac.lk/portal/login.php
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8

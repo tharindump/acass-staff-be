@@ -7,100 +7,39 @@ from preprocessor import clean_page
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 import _pickle
+from classifier.train_profile_classifier import count_words
+import numpy as np
 
+class NaiveBayesClassifier(object):
 
-def load_web_pages():
-    profile_dir = './training_data/profiles/'
-    non_profile_dir = './training_data/non-profiles/'
-    profiles = os.listdir(profile_dir)
-    non_profiles = os.listdir(non_profile_dir)
+    def __init__(self, model):
+        print("Initializing classifier.")
+        self.name = "Multinomial Naive Bayes based Profile classifier"
 
-    web_pages_list = [non_profile_dir + non_profile_page for non_profile_page in non_profiles]
-    web_pages_list = web_pages_list + [profile_dir + profile_page for profile_page in profiles]
+        # loading classifier model
+        with open(model, 'rb') as f:
+            self.classifier = _pickle.load(f)
 
-    return web_pages_list
+        with open('D:/Workspace/Project_L4/acass-staff-be/bag_of_words.mdl', 'rb') as f:
+            self.bag_of_words = _pickle.load(f)
 
+        #self.bag_of_words = count_words()
+        print('Classifier is ready.')
 
-def count_words():
-    web_pages_list = load_web_pages()
-    stop_words_set = set(stopwords.words('english'))
-    words_list = []
+    def predict_web_page(self, page):
+        formatted_page = clean_page(page)
+        words_list = word_tokenize(formatted_page)
 
-    for web_page in web_pages_list:
-        try:
-            with open(web_page, 'r', encoding='utf8') as f:
-                # clean page with pre-processor
-                formatted_page = clean_page(f.read())
-                f.close()
+        features = []
+        for word in self.bag_of_words:
+            features.append(words_list.count(word[0]))
 
-            # tokenize words with nltk tokenizer
-            unfiltered_words = word_tokenize(formatted_page)
+        predicted_result = self.classifier.predict([features])
+        prob = self.classifier.predict_proba([features])
 
-            # remove stop words, and non-alphabetic words from the bag of words
-            for word in unfiltered_words:
-                word = word.lower()
-                if word.isalpha() and not word in stop_words_set:
-                    words_list.append(word)
-        except Exception as e:
-            print(e)
+        # print(prob)
+        result = np.asscalar(np.int32(predicted_result[0]))
+        return result
 
-    bag_of_words = Counter(words_list)
-    print('Words =', len(words_list), '| BoW =', len(bag_of_words))
-    print(bag_of_words.most_common())
-
-    return bag_of_words.most_common(5000)
-
-
-def create_dataset(bag_of_words):
-    web_pages_list = load_web_pages()
-    features_set = []
-    labels = []
-
-    # iterate the training dataset
-    for web_page in web_pages_list:
-        try:
-            with open(web_page, 'r', encoding='utf8') as f:
-                # clean the web page
-                formatted_page = clean_page(f.read())
-                f.close()
-
-            # tokenize the page text
-            words_list = word_tokenize(formatted_page)
-            word_occurrence = []
-
-            # calculate word occurrence in the page with bag of words
-            for word_entry in bag_of_words:
-                word_occurrence.append(words_list.count(word_entry[0]))
-
-            # append the calculated word occurrence to features list
-            features_set.append(word_occurrence)
-            if 'non-profiles' in web_page:
-                labels.append(0)  # 0 for non profile pages
-            elif 'profiles' in web_page:
-                labels.append(1)  # 1 for profile pages
-
-        except Exception as e:
-            print(e)
-
-    return features_set, labels
-
-
-if __name__ == '__main__':
-    bow = count_words()
-    feature_set, labels = create_dataset(bow)
-
-    # splitting data
-    x_train, x_test, y_train, y_test = train_test_split(feature_set, labels, test_size=0.2)
-    classifier = MultinomialNB()
-    # training classifier
-    classifier.fit(x_train, y_train)
-
-    # calculate predictions
-    predictions = classifier.predict(x_test)
-    # test accuracy
-    print("Accuracy = ", accuracy_score(y_test, predictions))
-
-    # saving classifier
-    with open('profile-classifier.mdl', 'wb') as f:
-        _pickle.dump(classifier, f)
-        print("Saved the classifier")
+    def score(self, page):
+        return 22.33

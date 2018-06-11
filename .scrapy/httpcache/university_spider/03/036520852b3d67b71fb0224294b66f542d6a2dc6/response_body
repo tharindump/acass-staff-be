@@ -1,0 +1,6 @@
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+User-agent: *
+Disallow: /wp-admin/
+

@@ -11,7 +11,6 @@ class UniversitySpider(CrawlSpider):
         Rule(
             LinkExtractor(
                 allow=[],
-                deny=[r'\?\w+=\w+'],
                 canonicalize=False,
                 unique=True
             ),
@@ -44,18 +43,31 @@ class UniversitySpider(CrawlSpider):
 
         if 'module_name' in kwargs:
             self.module_name = kwargs.get('module_name')
+            print(self.module_name)
+
+        if 'classifier' in kwargs:
+            self.classifier = kwargs.get('classifier')
+            print(self.classifier.name,'\n')
 
     def parse_page(self, response):
-        item = UniversityWebPageItem()
-        item['title'] = self.get_title(response)
-        item['url'] = response.url
-        relevance_score = score_calc.calculate_relevance_score(response.text, self.module_name)
-        item['score'] = relevance_score
+        try:
+            item = UniversityWebPageItem()
+            item['title'] = self.get_title(response)
+            item['url'] = response.url
+            if self.classifier:
+                score = self.classifier.predict_web_page(response.text)
+            else:
+                score = 0
 
-        links = LinkExtractor(canonicalize=True, unique=True).extract_links(response)
-        # print(response.url, item['title'])
+            item['score'] = score
 
-        yield item
+            # print(response.url, item['title'])
+
+            yield item
+        except Exception as e:
+            import sys
+            print(e, e.__traceback__)
+            sys.exit(0)
 
     def get_title(self, response):
         return response.selector.xpath('//title/text()').extract_first()

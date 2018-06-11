@@ -1,6 +1,7 @@
 import requests
 import score_calc
 from threading import Thread
+import preprocessor
 
 
 def hello(line):
@@ -20,7 +21,9 @@ def run_pages():
     page3 = requests.get('http://ucsc.cmb.ac.lk/profile/spw/')
     score_calc.calculate_relevance_score(page3.text, "Human Computer Interaction")
 
-
+import _pickle
+from classifier.train_profile_classifier import count_words
 if __name__ == "__main__":
-    page = requests.get('https://www.mrt.ac.lk/web/taxonomy/term/275/feed')
-    preprocessor.calculate_relevance_score(page.text, "Human Computer Interaction")
+    bag_of_words = count_words()
+    with open('bag_of_words.mdl', 'wb') as f:
+        _pickle.dump(bag_of_words, f)

@@ -2,15 +2,17 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.project import get_project_settings
 from twisted.internet import reactor
 from threading import Thread
+from classifier.profile_classifier import NaiveBayesClassifier
+import config
 
 
-def run_crawler(input_module_name):
+def run_crawler(input_module_name, classifier):
     print("Crawler started")
 
     # when using this class to run the crawler, the reactor should be explicitly run
     runner = CrawlerRunner(get_project_settings())
 
-    d = runner.crawl('university_spider', module_name=input_module_name)
+    d = runner.crawl('university_spider', module_name=input_module_name, classifier=classifier)
     d.addBoth(lambda _: reactor.callFromThread(reactor.stop))
 
     # twisted reactor can run in any thread, but only one thread at a time
@@ -20,8 +22,11 @@ def run_crawler(input_module_name):
 
     print("End of reactor method")
 
+
 def start_reactor(module_name):
-    Thread(target=run_crawler, args=[module_name]).start()
+    model_path = config.CLASSIFIER_MODEL_DIR + config.CLASSIFIER_MODEL_NAME
+    classifier = NaiveBayesClassifier(model_path)
+    Thread(target=run_crawler, args=[module_name, classifier]).start()
 
 
 if __name__ == '__main__':

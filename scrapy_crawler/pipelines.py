@@ -10,6 +10,11 @@ from managedb import get_db
 import datetime
 
 class ScrapyCrawlerPipeline(object):
+
+    def __init__(self):
+        database = get_db()
+        self.index_store = database.get_collection('index_store')
+
     def process_item(self, item, spider):
 
         url_index = {
@@ -18,9 +23,7 @@ class ScrapyCrawlerPipeline(object):
             'added_date': datetime.datetime.utcnow()
         }
 
-        database = get_db()
-        index_store = database.get_collection('index_store')
-        index_store.insert_one(url_index)
+        self.index_store.insert_one(url_index)
         return item
 
 
@@ -34,6 +37,7 @@ class JsonPipeline(object):
         self.processed_items = set()
 
     def process_item(self, item, spider):
+        print(item)
         self.exporter.export_item(item)
         if item['url'] in self.processed_items:
             raise DropItem("Duplicate Item Found %s"%item)

@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Design-And-Program-By" content="Gishan Chaturanga" />
+<meta http-equiv="Copyright" content="Gishan Chaturanga" />
+<meta http-equiv="description" content="Official Website of Department of Transport and Logistics Management - Faculty of Engineering - University of Moratuwa - Sri Lanka" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<title> MBA in Supply Chain Management| Department of Transport and Logistics Management - Faculty of Engineering - University of Moratuwa</title>
+
+<link href="../skin/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../skin/menu.js"></script>
+<link href="../skin/menu.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript" src="../system/gisys/logo_flash.js"></script>
+<style type="text/css">
+<!--
+.style1 {
+	color: #990000;
+	font-weight: bold;
+}
+.style2 {font-size: 16px;
+color: #990000;}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('../images/logo_h.jpg')">
+<div id="wrap-body">
+<div id="wrap-main">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   
+    <tr>
+      <td><div id="topbanner">
+        <div id="logo"><a href="../en/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('imgLogo','','../images/logo_h.jpg',1)"><img src="../images/logo_bg.jpg" name="imgLogo" width="138" height="135" border="0" id="imgLogo" /></a></div>
+      </div></td>
+    </tr>
+    <tr>
+      <td class="welcomebar"><div style="height:35px;">
+       
+        </div></td>
+    </tr>
+    <tr>
+      <td style="background:#F0F0F0"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="23%" valign="top" style="padding:5px; background:#EFEFEF; border-right:#BFBFBF 1px solid"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="">
+  <tr>
+    <td width="5%"><img src="../skin/images/e/lt.gif" width="8" height="8" /></td>
+    <td width="21%" style="background:url(../skin/images/e/t.gif) top repeat-x"></td>
+    <td width="74%"><img src="../skin/images/e/rt.gif" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td style="background:url(../skin/images/e/l.gif) right repeat-y"></td>
+    <td> <div style="width:180px; height:auto; background:#FFFFFF; padding:5px">		  <DIV id=ddsidemenubar class=markermenu>
+                  <UL>
+                    <LI><A 
+                    href="../en">&nbsp;Home</A> 
+                    <LI><A href="../en/history_and_about_us.php" 
+                    rel=ddsubmenuside1>&nbsp;Our Department</A> 
+                   
+                     
+                    <LI><A href="../en/people.php" 
+                    rel=ddsubmenuside4>&nbsp;People</A> 
+                    <LI><A href="../en/academic_program_structure.php" 
+                    rel=ddsubmenuside3>&nbsp;Academic Programs</A>
+                    <!--Side Drop Down Menu 4 HTML [Postgraduate Program]
+                    <LI><A href="../en/mba.php"
+                    rel=ddsubmenuside15>&nbsp;Postgraduate Program</A>-->  
+                    <LI><A href="../en/prospective_students.php" 
+                    rel=ddsubmenuside8>&nbsp;Prospects</A> 
+                    <LI><A href="javascript:void(0)" 
+                    rel=ddsubmenuside6>&nbsp;Research &amp; Consultancy</A> 
+                      <!--Side Drop Down Menu 5 HTML [Achievements] <LI><A href="../en/staff_achievement.php" 
+                    rel=ddsubmenuside12>&nbsp;Achievements</A>-->
+                    <LI><A href="../en/industry_partnerships.php" 
+                    
+                    rel=ddsubmenuside9>&nbsp;Collaborations</A> 
+                    <LI><A href="../gallery/" 
+                    rel=ddsubmenuside10>&nbsp;Department Gallery </A> 
+                     <!--Side Drop Down Menu 4 HTML [Quality Assurance]
+                    <LI><A href="../en/quality_assurance.php" 
+                    rel=ddsubmenuside11>&nbsp;Quality Assurance</A>-->
+                    <!--Side Drop Down Menu 4 HTML [Facilities]
+                     <LI><A 
+                    href="../en/facilities.php">&nbsp;Facilities</A>--> 
+                     <LI><A href="../news/news_events.php"  
+                    rel=ddsubmenuside2>&nbsp;News &amp; Events</A> 
+                     <LI><A href="../en/related_links.php" 
+                    rel=ddsubmenuside5>&nbsp;Related Links</A> 
+                    <LI><A href="../en/contact_us.php" 
+                    rel=ddsubmenuside7>&nbsp;Contact Us</A>  </LI>
+                  </UL></DIV><SCRIPT type=text/javascript>
+						   ddlevelsmenu.setup("ddsidemenubar", "sidebar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")</SCRIPT>
+						  
+                          <!--Side Drop Down Menu 4 HTML [OUR DEPARTMENT]-->
+                           <UL id=ddsubmenuside1 class="ddsubmenustyle blackwhite">
+					<LI><A href="../en/welcome_message.php">Welcome Message</A> 
+                    <LI><A href="../en/history_and_about_us.php">History 
+                    &amp; About us</A> 
+                    <LI><A 
+                    href="../en/our_mission_and_vision.php">Our Mission and Vision</A>
+                   <LI><A 
+                    href="../en/facilities.php">Facilities</A> 
+                                
+                     <LI><A href="../en/industry_sponsorship.php">Industry 
+                     Sponsorship</A> 
+                    <UL>
+                      <LI><A 
+                      href="../en/new_building.php">New 
+                      Building</A> 
+                      <LI><A 
+                      href="../en/text_books.php">Text Books</A> 
+                      <LI><A href="../en/cpd_program.php">CPD 
+                      Program</A> 
+                         <LI><A 
+                      href="../en/bursary_schemes.php">Bursary 
+                      Schemes</A></UL>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <LI><A href="../en/brochures_&_videos.php">Brochures
+                    &amp; Videos </A> <!--Edit in 11.10.2017 Menu 4 HTML -->  
+                  <!--Edit in 11.10.2017 Menu 4 HTML     <UL> 
+                      <LI><A 
+                      href="../en/corporate_brochures.php">Corporate 
+                      Brochures</A>
+                    <LI><A
+                      href="../en/corporate_videos.php">Corporate 
+                      Videos</A> 
+                      <UL>
+                        <LI><A 
+                        href="../en/corporate_video.php">Corporate 
+                        Video</A> 
+                        <LI><A 
+                        href="../en/degree_promotion_videos.php">Degree 
+                      Promotion Videos</A> </LI>
+                      </UL></LI></UL>-->
+                    <LI><A 
+                    href="../en/department_culture.php">Department 
+                    Culture</A> 
+</LI></UL>
+
+
+
+					<!--Side Drop Down Menu 4 HTML [PEOPLE]-->
+                  <UL id=ddsubmenuside4 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/academic_staff.php">Staff</A> 
+                    <UL>
+                      <LI><A 
+                      href="../en/academic_staff.php">Academic 
+                      Staff</A> 
+                      <LI><A 
+                        href="../en/academic_support_staff.php">Academic 
+                        Support Staff</A> 
+                        <LI><A 
+                        href="../en/research_assistant_staff.php">Research Assistant Staff</A> 
+                        <LI><A 
+                        href="../en/non_academic_staff.php">Non 
+                        Acadamic Staff</A> </LI>
+                         <LI><A 
+                      href="../en/visiting_lecturers.php">Visiting 
+                      Lecturers</A> 
+                      <!--Side Drop Down Menu 4 HTML [PEOPLE]
+                      <LI><A 
+                      href="../en/lecturers_from_other_departments.php">Lecturers 
+                      from Other Departments</A> 
+                      <LI><A 
+                      href="../en/visiting_lecturers_from_other_universities.php">Visiting 
+                      Lecturers from Other Universities</A> 
+                      <LI><A 
+                      href="../en/visiting_lecturers_from_industry.php">Visiting 
+                      Lecturers from Industry</A> </LI>-->
+                    </UL>
+                    <LI><A 
+                    href="../en/student.php">Student</A> 
+                    
+                     <UL>
+                     
+                       <LI><A 
+                        href="../en/student.php">Student</A> 
+                        </LI>
+                        <!--{DELETE - 6.1.2017]
+                       
+                         <LI><A 
+                        href="../stl/">Society of T&amp;L</A> 
+                        </LI>  -->
+                        
+                        <LI><A 
+                        href="">Final Year Research Projects</A> 
+                       <UL>
+                        <LI><A 
+                        href="../student/final_year_research_student_2006.php"> 2006 Batch</A> 
+                        </LI> 
+                         <LI><A 
+                        href="../student/final_year_research_student_2007.php"> 2007 Batch</A> 
+                        </LI>
+                        
+                        
+                        
+                        </UL> <!--{DELETE - 6.1.2017]
+                         <LI><A 
+                        href="../en/iluminar.php">iluminar</A> 
+                        </LI> -->
+                        <LI><A 
+                        href="../library/library.php">Library Books</A> 
+                        </LI> 
+                        
+                      </UL>
+                        </LI></UL>  <!--Side Drop Down Menu 4 HTML [OUR DEPARTMENT]END ................................ -->
+                  
+                  
+                  <!--Side Drop Down Menu 3 HTML [Academic]-->
+                  <UL id=ddsubmenuside3 class="ddsubmenustyle blackwhite">
+                   
+                    <LI><A 
+                    href="../en/undergraduate_program.php">Undergraduate Program 
+                     </A> 
+                    <UL>
+                      <LI><A 
+                      href="../en/undergraduate_program.php">Undergraduate Program 
+                      </A> 
+                      <LI><A 
+                      href="../en/special_features.php">Special 
+                      Features</A> 
+                      <UL>
+                        <LI><A href="../en/olst_program.php">OLST 
+                        Program</A> 
+                        <LI><A href="../en/mentoring_program.php">Mentoring 
+                        Program </A>
+                        <LI><A 
+                        href="../en/business_english_program.php">Business 
+                        English Program</A> 
+                        <LI><A 
+                        href="../en/elt_program.php">ELT 
+                        Program</A> 
+                        <LI><A 
+                        href="../en/community_development_project.php">Community 
+                        Development Project</A> 
+                        <LI><A href="../en/career_development_camp.php">Career 
+                        Development Camp</A> </LI>
+                      </UL>
+                      <LI><A 
+                      href="../en/accreditations.php">Accreditations</A>                      </LI>
+                    </UL>
+                     <!--CHANGE  5.23.2018 <LI><A 
+                    href="../en/postgraduate_programs.php">Postgraduate Program
+                    </A> ...................... --> 
+                    <LI><A 
+                    href="../en/mba.php">Postgraduate Program
+                    </A> 
+                     <UL>
+                     
+                     
+                        <LI><A href="../en/mba.php">MBA in Supply Chain/ PG Diploma</A>
+                        <!--DeLETE 9.19.2017 ...................... --> 
+                         <!--DeLETE 9.19.2017 ...................... 
+                        <LI><A href="../en/MSc_in_Transport_&_Logistics_PG_Diploma.php">MSc in Transport & Logistics/ PG Diploma</A>
+                        --> 
+                       
+                     <!-- [DELETE 6.1.2017]
+                      <LI><A 
+                      href="../en/Research_based_degrees.php">Research based degrees</A>  
+                      <UL>
+                        <LI><A href="../en/MSc.php">MSc</A> 
+                        <LI><A href="../en/MPhil.php">MPhil</A>
+                        <LI><A href="../en/PhD.php">PhD</A>
+                       
+                      </UL>  -->  
+                        <!--Side Drop Down Menu 3 HTML [Academic]-->
+                             <!--[DELETED 6.1.2017]            
+                       <LI><A 
+                      href="../en/CPD_courses.php">CPD courses</A>  
+                      
+                      
+                      
+                       </LI>--> 
+                    </UL>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </LI>
+                  </UL><!--Side Drop Down Menu 3 HTML [Academic]END ...................... -->
+                  
+                  
+                  <!--Side Drop Down Menu 6 HTML [Research & Consultancy]-->
+                    <UL id=ddsubmenuside6 class="ddsubmenustyle blackwhite">
+                    <LI><A 
+                    href="../en/undergraduate_research.php">Research</A> 
+                    <UL>
+                    <LI><A 
+                      href="../en/typical_research_areas.php">Research Areas</A>					  </LI>
+                      <LI><A 
+                      href="../en/undergraduate_research_projects.php">Undergraduate 
+                      Research Projects</A> 
+                      <LI><A 
+                      href="../en/post_graduate_research_projects.php">Post 
+                      Graduate Research Projects</A> 
+                      <LI><A 
+                      href="../en/short_term_research.php">Short 
+                      Term Research</A>
+                       <LI><A 
+                      href="../en/collaborative_research_and_studies.php">Collaborative 
+                      Research &amp; Studies</A> 
+					  <LI><A 
+                      href="../en/industry_sponsored_research_projects.php">Industry Sponsored Research Projects </A>			
+					  
+                    </UL>
+                   
+                    <LI><A 
+                    href="../en/consultancy.php">Consultancy</A>                    </LI>
+                  </UL><!--Side Drop Down Menu 6 HTML [Research & Consultancy]END ............................ -->
+                  
+                  
+                  
+                  
+                  <!--Side Drop Down Menu 7 HTML [Contact Us]-->
+                  <UL id=ddsubmenuside7 class="ddsubmenustyle blackwhite">
+                    <LI><A 
+                    href="../en/contact_us.php">Contact 
+                    Us</A> 
+                    <LI><A 
+                    href="../en/visiting_us.php">Visiting 
+                    Us</A>
+                     <LI><A 
+                        href="https://www.facebook.com/TLM.UOM">TLM.UOM [Facebook]</A> 
+                        </LI>
+                    
+                    <LI><A 
+                    href="../contactus_form/html-contact-form.php">Contact Form</A> </LI>
+                  </UL><!--Side Drop Down Menu 7 HTML [Contact Us]END ......................-->
+                  
+                  
+                  <!--Side Drop Down Menu 8 HTML [Prospective Students]-->
+                  <UL id=ddsubmenuside8 class="ddsubmenustyle blackwhite">
+                    <LI><A 
+                    href="../en/prospective_students.php">Prospective 
+                    Students</A> 
+                    <LI><A 
+                    href="../en/undergraduate_program.php">Curriculum 
+                    &amp; Syllabus</A> 
+                    <LI><A 
+                    href="../en/special_features.php">Special 
+                    Features</A> 
+                    <UL>
+                      <LI><A href="../en/olst_program.php">OLST 
+                      Program</A> 
+                      <LI><A href="../en/mentoring_program.php">Mentoring 
+                      Program </A>
+                      <LI><A 
+                      href="../en/business_english_program.php">Business 
+                      English Program</A> 
+                      <LI><A 
+                      href="../en/elt_program.php">ELT 
+                      Program</A> 
+                      <LI><A href="../en/community_development_project.php">Community 
+                      Development Project</A> 
+                      <LI><A href="../en/career_development_camp.php">Career 
+                      Development Camp</A> </LI>
+                    </UL>
+                    <LI><A 
+                    href="../en/accreditations.php">Accreditations</A>                    </LI>
+                  </UL><!--Side Drop Down Menu 2 HTML [Prospective Students] END ......................... -->
+                  
+                    <!--Side Drop Down Menu 9 HTML [Collaborations]-->                 
+                  <UL id=ddsubmenuside9 class="ddsubmenustyle blackwhite">
+                  
+                     <!--[Collaborations]DELETE 1.6.2017   
+                       <LI><A href="../en/MOUs.php">MOUs</A> 
+                       <LI><A href="../en/employments.php">Employments</A> 
+                        <LI><A href="../en/multidisciplinary_project.php">Multidisciplinary Project</A> 
+                      
+                      --> 
+                      <LI><A href="../en/dicb_meeting.php">DICB 
+                      Meeting</A> 
+                      <LI><A 
+                      href="../en/guest_lectures.php">Guest 
+                      Lectures</A> 
+                      <LI><A 
+                      href="../en/industrial_training.php">Industrial 
+                      Training</A> 
+                      <LI><A href="../en/teaching_and_research_supervision_opportunities.php">Teaching 
+                      &amp; Research Supervision Opportunities</A> </LI>
+                    </UL>   <!--Side Drop Down Menu 9 HTML [industry_partnerships] END .................... -->
+                    
+                    
+                  <!--Side Drop Down Menu 10 HTML [Department Gallery]-->
+                     <UL id=ddsubmenuside10 class="ddsubmenustyle blackwhite">
+                      <LI><A href="../gallery/olst_program.php">OLST Program</A> 
+                      <LI><A 
+                      href="../gallery/guest_lectures.php">Guest 
+                      Lectures</A> 
+                      <LI><A href="../gallery/mentoring_program.php">Mentoring 
+                      Program </A>
+                      <LI><A href="../gallery/dicb_meeting.php">DICB 
+                      Meeting</A> 
+                      <LI><A href="../gallery/career_development_camp.php">Career 
+                      Development Camp</A> 
+                      <LI><A 
+                      href="../gallery/inaugaration_program.php">Inaugaration 
+                      Program</A> 
+                      <LI><A href="../gallery/community_development_project.php">Community 
+                      Development Project</A> 
+                      <LI><A href="../gallery/tlm_day.php">TLM 
+                      Day</A> 
+                       <LI><A href="../gallery/training_programs.php">Training Program</A> 
+                      <LI><A href="../gallery/cpd_program.php">Continues Professional Development [CPD] Program</A> </LI>
+                    </UL> <!--Side Drop Down Menu 10 HTML [Department Gallery] END ........................-->      
+                  
+                  
+                  
+                     <!--Side Drop Down Menu 2 HTML [Quality Assurance]-->
+                  <UL id=ddsubmenuside11 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/quality_assurance.php">QA Procedures</A> 
+                   
+                    <LI><A href="../en/accreditations1.php">Accrediations</A> </LI>
+                     
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                    <!--Side Drop Down Menu 2 HTML [Quality Assurance]-->
+                  <UL id=ddsubmenuside12 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/staff_achievement.php">Staff Achievement</A> 
+                   
+                    <LI><A href="../en/studentf_achievement.php">Student Achievement</A> </LI>
+                     
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                   <!--Side Drop Down Menu 2 HTML [News & Events]-->
+                  <UL id=ddsubmenuside15 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/mba.php">MBA in Supply Chain/ PG Diploma</A> 
+                        <LI><A href="../en/MSc_in_Transport_&_Logistics_PG_Diploma.php">MSc in Transport & Logistics/ PG Diploma</A>
+                        
+                       
+                     
+                      <LI><A 
+                      href="../en/Research_based_degrees.php">Research based degrees</A>  
+                      <UL>
+                        <LI><A href="../en/MSc.php">MSc</A> 
+                        <LI><A href="../en/MPhil.php">MPhil</A>
+                        <LI><A href="../en/PhD.php">PhD</A>
+                       
+                      </UL>                   
+                       <LI><A 
+                      href="../en/CPD_courses.php">CPD courses</A>  
+                      
+                      
+                      
+                       </LI>
+                    </UL>
+                    
+                    
+                    </LI>
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                  
+                  
+                  
+                  
+                  
+                  <!--Side Drop Down Menu 2 HTML [News & Events]-->
+                  <UL id=ddsubmenuside2 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../news/news.php">News Releases</A> 
+                    <!--DeLETE 9.19.2017 ...................... --> 
+                      <!--DeLETE 9.19.2017 ...................... 
+                    <LI><A href="../news/events.php">Events</A> </LI>-->
+                    
+                     <LI><A href="../pressnews/press_news.php">Press News Releases</A> </LI> 
+                     <!--Side Drop Down Menu 5 HTML [News & Events] End ..................  <LI><A href="../news/news _archives.php">News Archives</A> </LI>-->
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                  
+                  
+                  
+                  <!--Side Drop Down Menu 5 HTML [Related Links]-->
+                  <UL id=ddsubmenuside5 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/related_links.php">University 
+                    of Moratuwa</A> 
+                    <UL>
+                      <LI><A href="http://www.mrt.ac.lk/" target="_blank">University Of 
+                      Moratuwa</A> 
+                      <LI><A href="http://www.mrt.ac.lk/efac/" target="_blank">Faculty of 
+                      Engineering</A> 
+                      <LI><A href="http://www.lib.mrt.ac.lk/" target="_blank">Library</A> 
+                      <LI><A href="https://webmail.mrt.ac.lk/horde/" target="_blank">Web 
+                      Mail</A> 
+                      <LI><A href="https://lms.mrt.ac.lk/" target="_blank">LearnOrg</A> 
+                      <LI><A href="https://lms.uom.lk/moodle192/" target="_blank">Moodle</A>                      </LI>
+                    </UL>
+                    <LI><A href="../en/related_links.php">Society of 
+                    Transport and Logistics (STL) </A>
+                    <LI><A href="../en/related_links.php">Professional 
+                        <br />
+                    Accreditation</A> 
+                    <UL>
+                      <LI><A 
+                      href="http://www.cilt-international.com/web/pages/home" target="_blank">Chartered 
+                      Institute of Transport &amp; Logistics (CILT)</A> </LI>
+                    </UL>
+                    <!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                    <!--DELETE 9.19.2017 ..................
+                    <LI><A 
+                    href="javascript:void(0)">E-Resourse</A> 
+                    <UL>
+                      <LI><A 
+                      href="http://ieeexplore.ieee.org/Xplore/guesthome.jsp" target="_blank">IEEE Xplore</A> 
+                      <LI><A href="http://www.emeraldinsight.com/Insight/menuNavigation.do;jsessionid=391645B1C96DD8F783F4B805C6E25084?hdAction=InsightHome" target="_blank">Emerald</A> 
+                      <LI><A href="http://portal.acm.org/dl.cfm" target="_blank">ACM Digital 
+                      Library</A> 
+                      <LI><A href="http://www.scopus.com/home.url" target="_blank">SCOPUS</A> 
+                      <LI><A 
+                      href="http://www.sciencedirect.com/" target="_blank">ScienceDirect</A> 
+                      <LI><A 
+                      href="http://www.oxfordartonline.com/subscriber/" target="_blank">Grove 
+                      Art Online</A> 
+                      <LI><A 
+                      href="http://thakshana.nsf.ac.lk/wwwisis/nsfp/form.htm" target="_blank">NSF</A> 
+                    <LI><A href="http://search.ebscohost.com/" target="_blank">EBSCO</A>                    </LI>
+                    </UL>
+                    
+                    
+                     <LI><A 
+                    href="javascript:void(0)">Others</A> 
+                    <UL>
+                      <LI><A 
+                      href="../others/tax_calculator.php" target="_blank">Tax Calculator</A> 
+                     
+                      </LI></UL> -->
+                    
+                    <!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                    
+                    
+                    
+                    
+                    
+                    </LI></UL></div></td>
+    <td style="background:url(../skin/images/e/r.gif) left repeat-y"></td>
+  </tr>
+  <tr>
+    <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+    <td style="background:url(../skin/images/e/b.gif) top repeat-x"></td>
+    <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+  </tr>
+</table></td>
+          <td width="77%" valign="top" style="border-left:#FFFFFF 1px solid; background:#FAFAFA"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><div class="topbar">Academic Programs <img src="../skin/images/e/ta.gif" width="12" height="12" /> Postgraduate Program <img src="../skin/images/e/ta.gif" width="12" height="12" /> MBA in Supply Chain/ PG Diploma</div></td>
+            </tr>
+            <tr>
+              <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="73%" valign="top" class="bottomshade">
+                   
+                    
+                     <p><img src="../images/MBA Page Header.png" width="513" height="283" /></p>
+                <p align="justify">Today there is an increasing demand for professionally qualified managers who can think strategically and solve problems holistically. Having identified the lack of recognized MBA courses in Logistics & Supply Chain Management in Sri Lanka, the Department intends to offer postgraduate programmes
+ in Supply Chain Management. 
+</p> <p>&nbsp;</p>
+                    <p align="justify">This MBA / Postgraduate Diploma programme is blended with concepts and applications from the different areas of Logistics and Supply Chain. In addition, modules such as Economics, Finance, Quantitative Analysis, Marketing, Human Resource Management and Information Systems will help MBA graduates to think laterally.</p> <p>&nbsp;</p>
+                    
+                   <p> The programme is designed to transform individuals to become competent managers and imparting a high level of business, technical and leadership skills to enable them to perform as leaders at the top of their respective fields.
+ 
+</p>     
+                     
+                     
+                     
+                     
+          
+                    
+ 
+                     <p>&nbsp;</p>
+                    
+                    <p><h3>PROGRAM STRUCTURE</h3></p>
+                             <p>The Programme is structured as a four semester (two-year) degree Programme with each semester consisting of 16 weeks of academic activities. Lectures are held on weekdays from 5.30 pm to 8.30 pm in Colombo and on Saturdays whole day at the University of Moratuwa. 	  </p>
+                  
+                     <p>&nbsp;</p>
+                 <p>In a typical study Programme arrangement, the first three semesters consist of taught course modules while the fourth Semester contains the research and the Business Development Project.  MBA in Supply Chain Management degree Programmes requires total of 60 credits for completion. Postgraduate Diploma (PG Diploma) in Business Administration specializing in Supply Chain Management degree Programme requires a total of 40 credits for completion (without the research project component) and can be completed after the first three semesters.</p>  
+                  <p>&nbsp;</p>
+                <p><h3><A href="../en/mba_staff.php">RESOURCE PERSONS&nbsp;</A></h3></p>  
+                 
+                  <p>Resource persons consist with the permanent faculty from the university with higher academic qualifications such as PhDs, MBAs, MPhils, and MScs together with external Academics including expatriate faculty and industry experts with higher academic qualifications.  </p>
+                  <p>&nbsp;</p>
+                 
+                  <!-- 
+                  <p><a href="mba_staff.php" title="Academic Staff"> staff</a> </p>A WEBSITE BY: GISHAN CHATURANGA -->
+               <p>&nbsp;</p>
+                   <p><h3>WHO CAN APPLY</h3></p>  
+                 
+                 
+                     <p>The selection of students to the MBA/PGDip (BA) Programmes will be made by the Department of Transport and Logistics Management, in accordance with the following extended eligibility requirements, approved by the Senate.</p><p>&nbsp;</p>
+                    <ul>
+                    
+                    <Oi><b>I.</b>&nbsp;&nbsp;An Honours Degree of Bachelor of Science in Transport and Logistics Management or Engineering of the University of Moratuwa with a minimum of one (01) year of appropriate experience , or</oi><p>&nbsp;</p>
+                    
+                    
+<Oi><b>II.</b>&nbsp;&nbsp;Any other four year degree in a relevant field from a recognized University as may be approved by the senate with a minimum  period of one (01) year appropriate experience; or </oi> <p>&nbsp;</p>
+
+
+<oi><b>III.</b>&nbsp;&nbsp;Any three year degree in a relevant field from a recognized University as may be approved by the senate with a minimum  period of two (02) years appropriate experience; or</oi><p>&nbsp;</p>
+
+
+<oi><b>IV.</b>&nbsp;&nbsp;Any recognized category of membership of a recognized Professional Institute, obtained through an academic route, with a minimum of experience of two (02) years as may be approved by the Senate.
+</p>  
+
+</ul>
+
+  <p><h3>SELECTION PROCESS</h3></p>  
+  
+  
+   
+                      
+                    <p>The selection to the MBA/PGDip (BA) Programmes is through an open competitive process. The applicants educational qualifications, professional qualifications, commitment to advanced study, demonstrated aptitude for business analysis, potential for career development in the managerial track, English language skills required for preparation of study/analysis outcomes and knowledge dissemination, and academic/professional references all contribute to the evaluation of a candidate.  </p>  
+                    
+                     <p>&nbsp;</p>
+                     <p><h3>HOW TO APPLY</h3></p>  
+                      <ul class="content">
+                     
+                     <li>Fill up the <b>Application form.</b><A href="../documents/MBA/Application.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A> <A href="../documents/MBA/Application.docx"><img src="../images/word.jpg" width="25" height="25" /></A> </li>
+                     <p>&nbsp;</p>
+<li>	 Pay the application processing fee.</li> <p>&nbsp;</p>
+<p>The application processing fee of Rs. 1,000/- may be paid at any Bank of Ceylon branch in favor of&nbsp; University of Moratuwa&nbsp; A/C No. 70993353.<p>&nbsp;</p>
+<li>Submit filled and signed Application form with a copy of the application processing fee pay-in receipt before the application deadline.
+</li></ul>
+                     
+                     
+                       <p><h4>Send it by registered post or handover to:</h4></p>  
+                      
+                     <ul>
+                       <oi>MBA Course Coordinator,</oi><br/>
+<oi>Dept. of Transport and Logistics Management,</oi><br/>
+<oi>Faculty of Engineering,</oi><br/>
+
+University of Moratuwa,<br/>
+Katubedda, <br/>
+Moratuwa 10400,<br/>
+Sri Lanka.</ul>
+
+</p>  
+</ul>
+
+ <ul class="content">
+                     
+                     <li>	Arrange for Letters of Recommendations.</li></ul>
+<p>You are required to provide two (02) Letters of Recommendation. Referees should be non-related, who attest to your academic background and/or your professional background.</p><p>&nbsp;</p>
+<p>Ensure that your Letters of Recommendation requests are sent to the relevant referees. Collect it in a sealed and signed envelope from the referee and include in the application pack.</p> <p>&nbsp;</p>
+
+
+ <p><h4>Check list for the Application pack: </h4></p>  
+
+
+ <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I.</b>&nbsp;&nbsp;Filled and signed <b>Application Form.</b> <A href="../documents/MBA/Application.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A><A href="../documents/MBA/Application.docx"><img src="../images/word.jpg" width="25" height="25" /></A>  </p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II.</b>&nbsp;&nbsp;Letters of <b>Recommendation.</b><A href="../documents/MBA/Recommendation form.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A></p><p>&nbsp;</p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III.</b>&nbsp;&nbsp;Copies of attested certificates of academic qualifications.</p><p>&nbsp;</p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IV.</b>&nbsp;&nbsp;Copies of attested certificates of membership of professional organizations.</p>
+<p>&nbsp;</p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V.</b>&nbsp;&nbsp;Latest Curriculum Vitae.</p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VI.</b>&nbsp;&nbsp;<b>Letter of Consent From the Employer.</b><A href="../documents/MBA/Letter of Consent From the Employer.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A> </p><p>&nbsp;</p>
+
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VII.</b>&nbsp;&nbsp;Pay-in receipt for the application fee.
+</p> <p>&nbsp;</p>
+ 
+
+
+
+
+
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIII.</b>&nbsp;&nbsp;Letter of sponsorship (if applicable.)</p><p>&nbsp;</p>
+
+ 
+             
+<!-- closig date <p><h3>Closing Date for applications: <span class="style2">31<sup>st</sup><span class="style2"></span> January 2017</span>.</h3></p> -->
+<p>
+<h3><span class="style2"><span class="style2"></span>Applications are closed for this year</span></h3></p> 
+ 
+                     
+         <p><h3>Contact Us:</h3></p> 
+         
+          <p> General Tel/Fax: +94 (11)2650492 </p>          
+          <p>Gihani Goonesekera  :   +94(0)76 609 2750</p>
+<p>Naleen De Alwis: +94(0)77 490 6846
+</p>        
+     <p><a href="mailto:mba-tlm@uom.lk"><img src="../images/email.jpg"  width="20" height="20" alt="fb" /></a><a href="mailto:mba-tlm@uom.lk">mba-tlm@uom.lk </a>&nbsp;
+
+
+<A href="https://www.facebook.com/uom.tlm.pg/?ref=bookmarks"><img src="../images/facebook.png"  width="20" height="20" alt="fb" /></A> 
+                                                
+                     
+                                          
+                      
+ 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                </td>
+                  <td width="27%" valign="top" class="sidepane"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td colspan="3" class="sidetopic">Postgraduate Program </td>
+                      </tr>
+                    <tr>
+                      <td width="3%" style="background:url(../skin/images/e/l.gif) repeat-y right">&nbsp;</td>
+                      <td width="95%" style="background:#FFFFFF"><div id="related"><ul>
+					    
+					    <LI><A href="../en/mba.php">MBA in Supply Chain/ PG Diploma</A></LI> 
+                        <!--Side Drop Down Menu 4 HTML [OUR DEPARTMENT]--> <!-- <LI><A href="../en/MSc_in_Transport_&_Logistics_PG_Diploma.php">MSc in Transport & Logistics/ PG Diploma</A></LI>-->
+                        
+					  </ul>    
+                      </div>                    </td>
+                      <td width="2%" style="background:url(../skin/images/e/r.gif) repeat-y left">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+                      <td style="background:url(../skin/images/e/b.gif) repeat-x top"></td>
+                      <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+                    </tr>
+                  </table>
+                  
+                  
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:5px;">
+                    <tr>
+                      <td colspan="3" class="sidetopic">Downloads</td>
+                      </tr>
+                    <tr>
+                      <td width="3%" style="background:url(../skin/images/e/l.gif) repeat-y right">&nbsp;</td>
+                      <td width="95%" style="background:#FFFFFF"><div id="related"><ul>
+ <Li><b>Course Description</b><a href="../documents/MBA/Course Description.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A> </Li>
+                      <Li><b>Application</b><A href="../documents/MBA/Application.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A><A href="../documents/MBA/Application.docx"><img src="../images/word.jpg" width="25" height="25" /></A> </Li>
+                      <li><b>Recommendation form</b><A href="../documents/MBA/Recommendation form.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A></li>
+                       <li><b>Letter of Consent From the Employer</b><A href="../documents/MBA/Letter of Consent From the Employer.pdf"><img src="../images/pdf.jpg" width="25" height="25" /></A></li>
+                       
+                        </ul>    
+                      </div>                    </td>
+                      <td width="2%" style="background:url(../skin/images/e/r.gif) repeat-y left">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+                      <td style="background:url(../skin/images/e/b.gif) repeat-x top"></td>
+                      <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+                    </tr>
+                  </table>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  </td>
+                </tr>
+                
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+        
+          <td colspan="2" valign="top" class="topbottom"><!-- A WEBSITE BY: GISHAN CHATURANGA --><!--  <div style="height:1502px"><p align="center"><img src="../documents/MBA/MBA Article.jpg" width="910" height="1500" /></p></div>--></td>
+          </tr>
+          
+          
+          
+        <tr>
+          <td colspan="2" valign="top" class="bottom"><div id="bottom">Copyright 2010 &copy; Department of Transport and Logistics Management</div></td>
+        </tr>
+        
+      </table>      </td>
+    </tr>
+  </table>
+</div></div>
+<div style="text-align:center"><img src="../skin/images/bottom.jpg" width="980" height="24" /></div>
+<div id="updated">Last updated on: Wednesday, June ,06, 2018 
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12423567-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- 
+Copyright 2010 © Gishan Chaturanga,
+Department of Transport and Logistics Management,
+Faculty of Engineering - University of Moratuwa 
+-->
+<!-- A WEBSITE BY: GISHAN CHATURANGA -->
+</body>
+</html>

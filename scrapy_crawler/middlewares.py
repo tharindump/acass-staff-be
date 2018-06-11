@@ -106,17 +106,23 @@ class ScrapyCrawlerDownloaderMiddleware(object):
 
 class IgnoreURLsDownloaderMiddleWare(object):
 
-    crawled_urls = set()
+    def __init__(self):
+        self.crawled_urls = set()
 
     def process_request(self, request, spider):
-        print(request.url)
+        # print(request.url)
+
+        if len(self.crawled_urls)%100 == 0:
+            print("Crawled sets: ",len(self.crawled_urls))
+
         if request.url in self.crawled_urls:
             print("Duplicate request", request.url)
             raise IgnoreRequest()
-        elif re.search(r"(lib\.|library)", request.url, re.IGNORECASE):
+
+        elif re.search(r"(lib\.|library|taxonomy)", request.url, re.IGNORECASE):
             raise IgnoreRequest()
+
         else:
             self.crawled_urls.add(request.url)
-            print(request.url)
             return None
 

@@ -1,0 +1,1311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Design-And-Program-By" content="Gishan Chaturanga" />
+<meta http-equiv="Copyright" content="Gishan Chaturanga" />
+<meta http-equiv="description" content="Official Website of Department of Transport and Logistics Management - Faculty of Engineering - University of Moratuwa - Sri Lanka" />
+<meta http-equiv="keywords" content="Transport, Logistics, Transport and Logistics, Moratuwa, University of Moratuwa, Transport Degree" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Department of Transport and Logistics Management - Faculty of Engineering - University of Moratuwa</title>
+<link href="../skin/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../skin/menu.js"></script>
+<script language="javascript" type="text/javascript" src="../system/gisys/logo_flash.js"></script>
+<link href="../skin/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="MM_preloadImages('../images/logo_h.jpg')">
+<span id="liveclock" style="position:absolute;left:0;top:0;">
+</span>
+
+<script language="JavaScript">
+ <!--  clock script Code  Here  -->
+ <!--
+
+/*
+Upper Corner Live clock script credit: JavaScript Kit (www.javascriptkit.com)
+More free scripts here!
+*/
+
+function show5(){
+if (!document.layers&&!document.all&&!document.getElementById)
+return
+
+ var Digital=new Date()
+ var hours=Digital.getHours()
+ var minutes=Digital.getMinutes()
+ var seconds=Digital.getSeconds()
+
+var dn="PM"
+if (hours<12)
+dn="AM"
+if (hours>12)
+hours=hours-12
+if (hours==0)
+hours=12
+
+ if (minutes<=9)
+ minutes="0"+minutes
+ if (seconds<=9)
+ seconds="0"+seconds
+//change font size here to your desire
+myclock="<b>Current Time:</br>"+hours+":"+minutes+":"
+ +seconds+" "+dn+"</b>"
+if (document.layers){
+document.layers.liveclock.document.write(myclock)
+document.layers.liveclock.document.close()
+}
+else if (document.all)
+liveclock.innerHTML=myclock
+else if (document.getElementById)
+document.getElementById("liveclock").innerHTML=myclock
+setTimeout("show5()",1000)
+ }
+
+
+window.onload=show5
+ //-->
+ </script>
+
+<!--  clock script END Code  Here  -->
+
+<div id="wrap-body">
+<div id="wrap-main">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   
+    <tr>
+      <td><div id="topbanner"><!--<div style="z-index:601">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="950" height="110">
+          <param name="movie" value="../TLM/$tempory_files/fla/banner.swf" />
+          <param name="quality" value="high" />
+		  <param name="wmode" value="transparent">
+          <embed src="../TLM/$tempory_files/fla/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="950" height="110"></embed>
+        </object></div>-->
+        <div id="logo"><a href="../en/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('imgLogo','','../images/logo_h.jpg',1)"><img src="../images/logo_bg.jpg" name="imgLogo" width="138" height="135" border="0" id="imgLogo" /></a></div>
+      </div></td>
+    </tr>
+    <tr>
+      <td class="welcomebar"><div style="height:35px;">
+      <!-- 
+        <form action="http://www.gisoft.co.cc/search/tlm/" method="get" name="frmSearch" target="gishansearch" id="frmSearch">
+          <table width="100%" border="0" cellspacing="5" cellpadding="0">
+            <tr>
+              <td width="83%" style="color:#FFFFFF; padding-left:10px;"><strong style="font-size:13px">&nbsp;</strong> </td>
+              <td width="11%"><label>
+                <input name="q" type="text" class="searchtext" id="q" maxlength="30" />
+              </label></td>
+              <td width="6%">
+                <input type="submit" name="Submit" value="Search" class="searchbut" />           </td>
+            </tr>
+          </table>
+                        </form>
+                        END -->
+        </div></td>
+    </tr>
+    <tr>
+      <td style="background:#F0F0F0"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="23%" valign="top" style="padding:5px; background:#EFEFEF; border-right:#BFBFBF 1px solid"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="">
+  <tr>
+    <td width="5%"><img src="../skin/images/e/lt.gif" width="8" height="8" /></td>
+    <td width="21%" style="background:url(../skin/images/e/t.gif) top repeat-x"></td>
+    <td width="74%"><img src="../skin/images/e/rt.gif" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td style="background:url(../skin/images/e/l.gif) right repeat-y"></td>
+    <td> <div style="width:180px; height:auto; background:#FFFFFF; padding:5px">		  <DIV id=ddsidemenubar class=markermenu>
+                  <UL>
+                    <LI><A 
+                    href="../en">&nbsp;Home</A> 
+                    <LI><A href="../en/history_and_about_us.php" 
+                    rel=ddsubmenuside1>&nbsp;Our Department</A> 
+                   
+                     
+                    <LI><A href="../en/people.php" 
+                    rel=ddsubmenuside4>&nbsp;People</A> 
+                    <LI><A href="../en/academic_program_structure.php" 
+                    rel=ddsubmenuside3>&nbsp;Academic Programs</A>
+                    <!--Side Drop Down Menu 4 HTML [Postgraduate Program]
+                    <LI><A href="../en/mba.php"
+                    rel=ddsubmenuside15>&nbsp;Postgraduate Program</A>-->  
+                    <LI><A href="../en/prospective_students.php" 
+                    rel=ddsubmenuside8>&nbsp;Prospects</A> 
+                    <LI><A href="javascript:void(0)" 
+                    rel=ddsubmenuside6>&nbsp;Research &amp; Consultancy</A> 
+                      <!--Side Drop Down Menu 5 HTML [Achievements] <LI><A href="../en/staff_achievement.php" 
+                    rel=ddsubmenuside12>&nbsp;Achievements</A>-->
+                    <LI><A href="../en/industry_partnerships.php" 
+                    
+                    rel=ddsubmenuside9>&nbsp;Collaborations</A> 
+                    <LI><A href="../gallery/" 
+                    rel=ddsubmenuside10>&nbsp;Department Gallery </A> 
+                     <!--Side Drop Down Menu 4 HTML [Quality Assurance]
+                    <LI><A href="../en/quality_assurance.php" 
+                    rel=ddsubmenuside11>&nbsp;Quality Assurance</A>-->
+                    <!--Side Drop Down Menu 4 HTML [Facilities]
+                     <LI><A 
+                    href="../en/facilities.php">&nbsp;Facilities</A>--> 
+                     <LI><A href="../news/news_events.php"  
+                    rel=ddsubmenuside2>&nbsp;News &amp; Events</A> 
+                     <LI><A href="../en/related_links.php" 
+                    rel=ddsubmenuside5>&nbsp;Related Links</A> 
+                    <LI><A href="../en/contact_us.php" 
+                    rel=ddsubmenuside7>&nbsp;Contact Us</A>  </LI>
+                  </UL></DIV><SCRIPT type=text/javascript>
+						   ddlevelsmenu.setup("ddsidemenubar", "sidebar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")</SCRIPT>
+						  
+                          <!--Side Drop Down Menu 4 HTML [OUR DEPARTMENT]-->
+                           <UL id=ddsubmenuside1 class="ddsubmenustyle blackwhite">
+					<LI><A href="../en/welcome_message.php">Welcome Message</A> 
+                    <LI><A href="../en/history_and_about_us.php">History 
+                    &amp; About us</A> 
+                    <LI><A 
+                    href="../en/our_mission_and_vision.php">Our Mission and Vision</A>
+                   <LI><A 
+                    href="../en/facilities.php">Facilities</A> 
+                                
+                     <LI><A href="../en/industry_sponsorship.php">Industry 
+                     Sponsorship</A> 
+                    <UL>
+                      <LI><A 
+                      href="../en/new_building.php">New 
+                      Building</A> 
+                      <LI><A 
+                      href="../en/text_books.php">Text Books</A> 
+                      <LI><A href="../en/cpd_program.php">CPD 
+                      Program</A> 
+                         <LI><A 
+                      href="../en/bursary_schemes.php">Bursary 
+                      Schemes</A></UL>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <LI><A href="../en/brochures_&_videos.php">Brochures
+                    &amp; Videos </A> <!--Edit in 11.10.2017 Menu 4 HTML -->  
+                  <!--Edit in 11.10.2017 Menu 4 HTML     <UL> 
+                      <LI><A 
+                      href="../en/corporate_brochures.php">Corporate 
+                      Brochures</A>
+                    <LI><A
+                      href="../en/corporate_videos.php">Corporate 
+                      Videos</A> 
+                      <UL>
+                        <LI><A 
+                        href="../en/corporate_video.php">Corporate 
+                        Video</A> 
+                        <LI><A 
+                        href="../en/degree_promotion_videos.php">Degree 
+                      Promotion Videos</A> </LI>
+                      </UL></LI></UL>-->
+                    <LI><A 
+                    href="../en/department_culture.php">Department 
+                    Culture</A> 
+</LI></UL>
+
+
+
+					<!--Side Drop Down Menu 4 HTML [PEOPLE]-->
+                  <UL id=ddsubmenuside4 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/academic_staff.php">Staff</A> 
+                    <UL>
+                      <LI><A 
+                      href="../en/academic_staff.php">Academic 
+                      Staff</A> 
+                      <LI><A 
+                        href="../en/academic_support_staff.php">Academic 
+                        Support Staff</A> 
+                        <LI><A 
+                        href="../en/research_assistant_staff.php">Research Assistant Staff</A> 
+                        <LI><A 
+                        href="../en/non_academic_staff.php">Non 
+                        Acadamic Staff</A> </LI>
+                         <LI><A 
+                      href="../en/visiting_lecturers.php">Visiting 
+                      Lecturers</A> 
+                      <!--Side Drop Down Menu 4 HTML [PEOPLE]
+                      <LI><A 
+                      href="../en/lecturers_from_other_departments.php">Lecturers 
+                      from Other Departments</A> 
+                      <LI><A 
+                      href="../en/visiting_lecturers_from_other_universities.php">Visiting 
+                      Lecturers from Other Universities</A> 
+                      <LI><A 
+                      href="../en/visiting_lecturers_from_industry.php">Visiting 
+                      Lecturers from Industry</A> </LI>-->
+                    </UL>
+                    <LI><A 
+                    href="../en/student.php">Student</A> 
+                    
+                     <UL>
+                     
+                       <LI><A 
+                        href="../en/student.php">Student</A> 
+                        </LI>
+                        <!--{DELETE - 6.1.2017]
+                       
+                         <LI><A 
+                        href="../stl/">Society of T&amp;L</A> 
+                        </LI>  -->
+                        
+                        <LI><A 
+                        href="">Final Year Research Projects</A> 
+                       <UL>
+                        <LI><A 
+                        href="../student/final_year_research_student_2006.php"> 2006 Batch</A> 
+                        </LI> 
+                         <LI><A 
+                        href="../student/final_year_research_student_2007.php"> 2007 Batch</A> 
+                        </LI>
+                        
+                        
+                        
+                        </UL> <!--{DELETE - 6.1.2017]
+                         <LI><A 
+                        href="../en/iluminar.php">iluminar</A> 
+                        </LI> -->
+                        <LI><A 
+                        href="../library/library.php">Library Books</A> 
+                        </LI> 
+                        
+                      </UL>
+                        </LI></UL>  <!--Side Drop Down Menu 4 HTML [OUR DEPARTMENT]END ................................ -->
+                  
+                  
+                  <!--Side Drop Down Menu 3 HTML [Academic]-->
+                  <UL id=ddsubmenuside3 class="ddsubmenustyle blackwhite">
+                   
+                    <LI><A 
+                    href="../en/undergraduate_program.php">Undergraduate Program 
+                     </A> 
+                    <UL>
+                      <LI><A 
+                      href="../en/undergraduate_program.php">Undergraduate Program 
+                      </A> 
+                      <LI><A 
+                      href="../en/special_features.php">Special 
+                      Features</A> 
+                      <UL>
+                        <LI><A href="../en/olst_program.php">OLST 
+                        Program</A> 
+                        <LI><A href="../en/mentoring_program.php">Mentoring 
+                        Program </A>
+                        <LI><A 
+                        href="../en/business_english_program.php">Business 
+                        English Program</A> 
+                        <LI><A 
+                        href="../en/elt_program.php">ELT 
+                        Program</A> 
+                        <LI><A 
+                        href="../en/community_development_project.php">Community 
+                        Development Project</A> 
+                        <LI><A href="../en/career_development_camp.php">Career 
+                        Development Camp</A> </LI>
+                      </UL>
+                      <LI><A 
+                      href="../en/accreditations.php">Accreditations</A>                      </LI>
+                    </UL>
+                     <!--CHANGE  5.23.2018 <LI><A 
+                    href="../en/postgraduate_programs.php">Postgraduate Program
+                    </A> ...................... --> 
+                    <LI><A 
+                    href="../en/mba.php">Postgraduate Program
+                    </A> 
+                     <UL>
+                     
+                     
+                        <LI><A href="../en/mba.php">MBA in Supply Chain/ PG Diploma</A>
+                        <!--DeLETE 9.19.2017 ...................... --> 
+                         <!--DeLETE 9.19.2017 ...................... 
+                        <LI><A href="../en/MSc_in_Transport_&_Logistics_PG_Diploma.php">MSc in Transport & Logistics/ PG Diploma</A>
+                        --> 
+                       
+                     <!-- [DELETE 6.1.2017]
+                      <LI><A 
+                      href="../en/Research_based_degrees.php">Research based degrees</A>  
+                      <UL>
+                        <LI><A href="../en/MSc.php">MSc</A> 
+                        <LI><A href="../en/MPhil.php">MPhil</A>
+                        <LI><A href="../en/PhD.php">PhD</A>
+                       
+                      </UL>  -->  
+                        <!--Side Drop Down Menu 3 HTML [Academic]-->
+                             <!--[DELETED 6.1.2017]            
+                       <LI><A 
+                      href="../en/CPD_courses.php">CPD courses</A>  
+                      
+                      
+                      
+                       </LI>--> 
+                    </UL>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </LI>
+                  </UL><!--Side Drop Down Menu 3 HTML [Academic]END ...................... -->
+                  
+                  
+                  <!--Side Drop Down Menu 6 HTML [Research & Consultancy]-->
+                    <UL id=ddsubmenuside6 class="ddsubmenustyle blackwhite">
+                    <LI><A 
+                    href="../en/undergraduate_research.php">Research</A> 
+                    <UL>
+                    <LI><A 
+                      href="../en/typical_research_areas.php">Research Areas</A>					  </LI>
+                      <LI><A 
+                      href="../en/undergraduate_research_projects.php">Undergraduate 
+                      Research Projects</A> 
+                      <LI><A 
+                      href="../en/post_graduate_research_projects.php">Post 
+                      Graduate Research Projects</A> 
+                      <LI><A 
+                      href="../en/short_term_research.php">Short 
+                      Term Research</A>
+                       <LI><A 
+                      href="../en/collaborative_research_and_studies.php">Collaborative 
+                      Research &amp; Studies</A> 
+					  <LI><A 
+                      href="../en/industry_sponsored_research_projects.php">Industry Sponsored Research Projects </A>			
+					  
+                    </UL>
+                   
+                    <LI><A 
+                    href="../en/consultancy.php">Consultancy</A>                    </LI>
+                  </UL><!--Side Drop Down Menu 6 HTML [Research & Consultancy]END ............................ -->
+                  
+                  
+                  
+                  
+                  <!--Side Drop Down Menu 7 HTML [Contact Us]-->
+                  <UL id=ddsubmenuside7 class="ddsubmenustyle blackwhite">
+                    <LI><A 
+                    href="../en/contact_us.php">Contact 
+                    Us</A> 
+                    <LI><A 
+                    href="../en/visiting_us.php">Visiting 
+                    Us</A>
+                     <LI><A 
+                        href="https://www.facebook.com/TLM.UOM">TLM.UOM [Facebook]</A> 
+                        </LI>
+                    
+                    <LI><A 
+                    href="../contactus_form/html-contact-form.php">Contact Form</A> </LI>
+                  </UL><!--Side Drop Down Menu 7 HTML [Contact Us]END ......................-->
+                  
+                  
+                  <!--Side Drop Down Menu 8 HTML [Prospective Students]-->
+                  <UL id=ddsubmenuside8 class="ddsubmenustyle blackwhite">
+                    <LI><A 
+                    href="../en/prospective_students.php">Prospective 
+                    Students</A> 
+                    <LI><A 
+                    href="../en/undergraduate_program.php">Curriculum 
+                    &amp; Syllabus</A> 
+                    <LI><A 
+                    href="../en/special_features.php">Special 
+                    Features</A> 
+                    <UL>
+                      <LI><A href="../en/olst_program.php">OLST 
+                      Program</A> 
+                      <LI><A href="../en/mentoring_program.php">Mentoring 
+                      Program </A>
+                      <LI><A 
+                      href="../en/business_english_program.php">Business 
+                      English Program</A> 
+                      <LI><A 
+                      href="../en/elt_program.php">ELT 
+                      Program</A> 
+                      <LI><A href="../en/community_development_project.php">Community 
+                      Development Project</A> 
+                      <LI><A href="../en/career_development_camp.php">Career 
+                      Development Camp</A> </LI>
+                    </UL>
+                    <LI><A 
+                    href="../en/accreditations.php">Accreditations</A>                    </LI>
+                  </UL><!--Side Drop Down Menu 2 HTML [Prospective Students] END ......................... -->
+                  
+                    <!--Side Drop Down Menu 9 HTML [Collaborations]-->                 
+                  <UL id=ddsubmenuside9 class="ddsubmenustyle blackwhite">
+                  
+                     <!--[Collaborations]DELETE 1.6.2017   
+                       <LI><A href="../en/MOUs.php">MOUs</A> 
+                       <LI><A href="../en/employments.php">Employments</A> 
+                        <LI><A href="../en/multidisciplinary_project.php">Multidisciplinary Project</A> 
+                      
+                      --> 
+                      <LI><A href="../en/dicb_meeting.php">DICB 
+                      Meeting</A> 
+                      <LI><A 
+                      href="../en/guest_lectures.php">Guest 
+                      Lectures</A> 
+                      <LI><A 
+                      href="../en/industrial_training.php">Industrial 
+                      Training</A> 
+                      <LI><A href="../en/teaching_and_research_supervision_opportunities.php">Teaching 
+                      &amp; Research Supervision Opportunities</A> </LI>
+                    </UL>   <!--Side Drop Down Menu 9 HTML [industry_partnerships] END .................... -->
+                    
+                    
+                  <!--Side Drop Down Menu 10 HTML [Department Gallery]-->
+                     <UL id=ddsubmenuside10 class="ddsubmenustyle blackwhite">
+                      <LI><A href="../gallery/olst_program.php">OLST Program</A> 
+                      <LI><A 
+                      href="../gallery/guest_lectures.php">Guest 
+                      Lectures</A> 
+                      <LI><A href="../gallery/mentoring_program.php">Mentoring 
+                      Program </A>
+                      <LI><A href="../gallery/dicb_meeting.php">DICB 
+                      Meeting</A> 
+                      <LI><A href="../gallery/career_development_camp.php">Career 
+                      Development Camp</A> 
+                      <LI><A 
+                      href="../gallery/inaugaration_program.php">Inaugaration 
+                      Program</A> 
+                      <LI><A href="../gallery/community_development_project.php">Community 
+                      Development Project</A> 
+                      <LI><A href="../gallery/tlm_day.php">TLM 
+                      Day</A> 
+                       <LI><A href="../gallery/training_programs.php">Training Program</A> 
+                      <LI><A href="../gallery/cpd_program.php">Continues Professional Development [CPD] Program</A> </LI>
+                    </UL> <!--Side Drop Down Menu 10 HTML [Department Gallery] END ........................-->      
+                  
+                  
+                  
+                     <!--Side Drop Down Menu 2 HTML [Quality Assurance]-->
+                  <UL id=ddsubmenuside11 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/quality_assurance.php">QA Procedures</A> 
+                   
+                    <LI><A href="../en/accreditations1.php">Accrediations</A> </LI>
+                     
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                    <!--Side Drop Down Menu 2 HTML [Quality Assurance]-->
+                  <UL id=ddsubmenuside12 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/staff_achievement.php">Staff Achievement</A> 
+                   
+                    <LI><A href="../en/studentf_achievement.php">Student Achievement</A> </LI>
+                     
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                   <!--Side Drop Down Menu 2 HTML [News & Events]-->
+                  <UL id=ddsubmenuside15 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/mba.php">MBA in Supply Chain/ PG Diploma</A> 
+                        <LI><A href="../en/MSc_in_Transport_&_Logistics_PG_Diploma.php">MSc in Transport & Logistics/ PG Diploma</A>
+                        
+                       
+                     
+                      <LI><A 
+                      href="../en/Research_based_degrees.php">Research based degrees</A>  
+                      <UL>
+                        <LI><A href="../en/MSc.php">MSc</A> 
+                        <LI><A href="../en/MPhil.php">MPhil</A>
+                        <LI><A href="../en/PhD.php">PhD</A>
+                       
+                      </UL>                   
+                       <LI><A 
+                      href="../en/CPD_courses.php">CPD courses</A>  
+                      
+                      
+                      
+                       </LI>
+                    </UL>
+                    
+                    
+                    </LI>
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                  
+                  
+                  
+                  
+                  
+                  <!--Side Drop Down Menu 2 HTML [News & Events]-->
+                  <UL id=ddsubmenuside2 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../news/news.php">News Releases</A> 
+                    <!--DeLETE 9.19.2017 ...................... --> 
+                      <!--DeLETE 9.19.2017 ...................... 
+                    <LI><A href="../news/events.php">Events</A> </LI>-->
+                    
+                     <LI><A href="../pressnews/press_news.php">Press News Releases</A> </LI> 
+                     <!--Side Drop Down Menu 5 HTML [News & Events] End ..................  <LI><A href="../news/news _archives.php">News Archives</A> </LI>-->
+                  </UL><!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                  
+                  
+                  
+                  
+                  <!--Side Drop Down Menu 5 HTML [Related Links]-->
+                  <UL id=ddsubmenuside5 class="ddsubmenustyle blackwhite">
+                    <LI><A href="../en/related_links.php">University 
+                    of Moratuwa</A> 
+                    <UL>
+                      <LI><A href="http://www.mrt.ac.lk/" target="_blank">University Of 
+                      Moratuwa</A> 
+                      <LI><A href="http://www.mrt.ac.lk/efac/" target="_blank">Faculty of 
+                      Engineering</A> 
+                      <LI><A href="http://www.lib.mrt.ac.lk/" target="_blank">Library</A> 
+                      <LI><A href="https://webmail.mrt.ac.lk/horde/" target="_blank">Web 
+                      Mail</A> 
+                      <LI><A href="https://lms.mrt.ac.lk/" target="_blank">LearnOrg</A> 
+                      <LI><A href="https://lms.uom.lk/moodle192/" target="_blank">Moodle</A>                      </LI>
+                    </UL>
+                    <LI><A href="../en/related_links.php">Society of 
+                    Transport and Logistics (STL) </A>
+                    <LI><A href="../en/related_links.php">Professional 
+                        <br />
+                    Accreditation</A> 
+                    <UL>
+                      <LI><A 
+                      href="http://www.cilt-international.com/web/pages/home" target="_blank">Chartered 
+                      Institute of Transport &amp; Logistics (CILT)</A> </LI>
+                    </UL>
+                    <!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                    <!--DELETE 9.19.2017 ..................
+                    <LI><A 
+                    href="javascript:void(0)">E-Resourse</A> 
+                    <UL>
+                      <LI><A 
+                      href="http://ieeexplore.ieee.org/Xplore/guesthome.jsp" target="_blank">IEEE Xplore</A> 
+                      <LI><A href="http://www.emeraldinsight.com/Insight/menuNavigation.do;jsessionid=391645B1C96DD8F783F4B805C6E25084?hdAction=InsightHome" target="_blank">Emerald</A> 
+                      <LI><A href="http://portal.acm.org/dl.cfm" target="_blank">ACM Digital 
+                      Library</A> 
+                      <LI><A href="http://www.scopus.com/home.url" target="_blank">SCOPUS</A> 
+                      <LI><A 
+                      href="http://www.sciencedirect.com/" target="_blank">ScienceDirect</A> 
+                      <LI><A 
+                      href="http://www.oxfordartonline.com/subscriber/" target="_blank">Grove 
+                      Art Online</A> 
+                      <LI><A 
+                      href="http://thakshana.nsf.ac.lk/wwwisis/nsfp/form.htm" target="_blank">NSF</A> 
+                    <LI><A href="http://search.ebscohost.com/" target="_blank">EBSCO</A>                    </LI>
+                    </UL>
+                    
+                    
+                     <LI><A 
+                    href="javascript:void(0)">Others</A> 
+                    <UL>
+                      <LI><A 
+                      href="../others/tax_calculator.php" target="_blank">Tax Calculator</A> 
+                     
+                      </LI></UL> -->
+                    
+                    <!--Side Drop Down Menu 5 HTML [News & Events] End .................. -->
+                    
+                    
+                    
+                    
+                    
+                    </LI></UL></div></td>
+    
+    <td style="background:url(../skin/images/e/r.gif) left repeat-y"></td>
+  </tr>
+  <tr>
+    <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+    <td style="background:url(../skin/images/e/b.gif) top repeat-x"></td>
+    <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+  </tr>
+</table>
+<!-- [A WEBSITE BY: MBA FLAG] -->
+<!-- [A WEBSITE BY: MBA FLAG] 
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:2px;style="">
+  <tr>
+    <td width="5%"><img src="../skin/images/e/lt.gif" width="8" height="8" /></td>
+    <td width="21%" style="background:url(../skin/images/e/t.gif) top repeat-x"></td>
+    <td width="74%"><img src="../skin/images/e/rt.gif" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td style="background:url(../skin/images/e/l.gif) right repeat-y"></td>
+    <td> <div style="width:180px; height:auto; background:#FFFFFF; padding:5px">Click<A href="../news_events_form/html-contact-form.php"> here </A> to submit a news and events </div></td>
+    
+    <td style="background:url(../skin/images/e/r.gif) left repeat-y"></td>
+  </tr>
+  <tr>
+    <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+    <td style="background:url(../skin/images/e/b.gif) top repeat-x"></td>
+    <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+  </tr>
+</table>
+-->
+<!-- A WEBSITE BY: GISHAN CHATURANGA -->
+
+<!-- [A WEBSITE BY: MBA FLAG] -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:2px;style="">
+  <tr>
+    <td width="5%"><img src="../skin/images/e/lt.gif" width="8" height="8" /></td>
+    <td width="21%" style="background:url(../skin/images/e/t.gif) top repeat-x"></td>
+    <td width="74%"><img src="../skin/images/e/rt.gif" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td style="background:url(../skin/images/e/l.gif) right repeat-y"></td>
+    <td> <div style="width:180px; height:auto; background:#FFFFFF; padding:5px"><p align="center"><b><font color="#0000CC">Stay In Touch</font></b></p><A href="../subscripe_contactus_form/html-contact-form.php"><img src="../images/subscribe_button.png" alt="subscribe_button" width="179" height="29"> </A> Get our latest thinking, news and events straight to your inbox. </div></td>
+    
+    <td style="background:url(../skin/images/e/r.gif) left repeat-y"></td>
+  </tr>
+  <tr>
+    <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+    <td style="background:url(../skin/images/e/b.gif) top repeat-x"></td>
+    <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+  </tr>
+</table>
+
+<!-- A WEBSITE BY: GISHAN CHATURANGA -->
+
+
+
+
+
+
+</td>
+
+
+
+
+
+
+
+
+          <td width="77%" valign="top" style="border-left:#FFFFFF 1px solid; background:#FAFAFA"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><div class="topbar">Home</div></td>
+            </tr>
+            <tr>
+              <td style=""><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="64%" valign="top" class="bottomshadehome"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                    <tr><td style="padding:10px; background:#000000 url(../images/back_line.jpg) center repeat-x; border-bottom:#FF9900 3px solid;"><strong style="font-size:13px">Welcome!</strong>&nbsp;&nbsp;<script language="javascript" type="text/javascript">
+	var gishanDate=new Date();var giHr=gishanDate.getHours();var giPT;(giHr<12)?giPT="Good Morning!":(giHr<15)?giPT="Good Afternoon!":giPT="Good Evening!";document.write(giPT);
+	</script></td></tr>                    <td><iframe width="466" height="400" src="../system/intro/show.php" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe></td>
+                      </tr>
+                  </table></td>
+                  <td width="36%" valign="top" class="sidepane"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0px">
+                    <tr>
+                      <td width="3%"><img src="../skin/images/e/lt.gif" width="8" height="8" /></td>
+                      <td width="95%" style="background:url(../skin/images/e/t.gif) repeat-x bottom"></td>
+                      <td width="2%"><img src="../skin/images/e/rt.gif" width="8" height="8" /></td>
+                    </tr>
+                    <tr>
+                      <td style="background:url(../skin/images/e/l.gif) repeat-y right">&nbsp;</td>
+                      <td style="background:lightyellow; padding:"1px"><div align="center" style="width:230px">
+                        <h3 align="center"><a href="../news/news.php" target="_top">Recent News & Announcements</a></h3>
+<br />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.tlm.mrt.ac.lk/skin/jquery2012.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="featuredcontentglider.css" />
+
+<script type="text/javascript" src="featuredcontentglider.js">
+
+/***********************************************
+* Featured Content Glider script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+
+
+<style type="text/css">/* Do not change this value */
+.glidecontentwrapper{
+position: relative; /* Do not change this value */
+width: 224px;
+height: 350px; /* Set height to be able to contain height of largest content shown*/
+border: 5px solid #687C98;
+overflow: hidden;
+}
+/*
+	Total wrapper width: 350px+5px+5px=360px
+	Or width of wrapper div itself plus any left and right CSS border and padding
+	Adjust related containers below according to comments
+*/
+
+
+.glidecontent{ /*style for each glide content DIV within wrapper.*/
+position: absolute; /* Do not change this value */
+background: white;
+padding: 10px;
+visibility: hidden;
+width: 208px;
+}
+/*
+ Total glidecontent width: 330px+10px+10px=350px
+	Or width of wrapper div itself (not counting wrapper border/padding)
+*/
+
+.glidecontenttoggler{ /*style for DIV used to contain toggler links. */
+width: 228px;
+margin-top: 6px;
+text-align: center; /*How to align pagination links: "left", "center", or "right"
+background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+}
+/*
+ Total contenttoggler width: 350px+5px+5px=360px
+	Or total width of wrapper div (counting wrapper border/padding)
+*/
+
+.glidecontenttoggler a{ /*style for every navigational link within toggler */
+display: -moz-inline-box;
+display: inline-block;
+border: 1px solid black;
+color: #2e6ab1;
+padding: 1px 3px;
+margin-right: 3px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.glidecontenttoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
+background: #E4EFFA;
+color: black;
+}
+
+.glidecontenttoggler a:hover{
+background: #E4EFFA;
+color: black;
+}
+
+.glidecontenttoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+.glidecontenttoggler a.prev, .glidecontenttoggler a.next{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+}
+
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover{
+background: #1A48A4;
+color: white;
+}
+
+</style>
+
+
+
+
+
+
+
+
+<style type="text/css">
+h3 {
+	font-size:12px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin:0px;
+	color:#0000CC;
+	text-align:center;}
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+<!-- Rich HTML Ticker [START]-->	
+.tickerstyle{width:218px; height:318px; border:0px solid black; background-color:lightyellow; padding:0px; overflow:hidden;}
+
+.messagediv{display: none; background-color:#FFC;}
+
+<!-- Rich HTML Ticker [END]-->	
+.style12 {color: #C00}
+.style0 {color: #000066}
+.style3 {color: #660000}
+.style1 {font-weight: bold}
+.style2 {color: #000}
+.style11 {color: #000;font-size: 10px}
+.style5 {color: #FF0000}
+.style6 {font-size: 14px}
+.style7 {color: #FF6699;font-weight: bold;}
+.style10 {color: #900; font-size:8px;}
+.style11 {color: #900; font-size:10px;}
+.style8 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: blink;
+	font-style: oblique;
+}
+.title, .title a {
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: 'Times New Roman';
+  color: #900;
+  margin: 0 auto;  /* decrease default margins for h<x>.title */
+}
+h1.title {font-size: 1.8em;}
+.hiliteline {
+        border-top: 1px solid #666;
+        }
+
+.hilite { 
+         padding: .5em  0 1.25em 0; 
+         }
+
+.hiliteimg {
+	margin: 0 10px 5px 0;
+	width: 60px;
+	float: left;
+	border: 0px solid black;
+	}
+
+
+.hilite h3 {
+        margin: 0;
+        }
+
+.hilite p {
+        padding: 0; 
+	margin: 0;
+  	line-height: 1.3em;
+        }
+</style>
+
+<script type="text/javascript">
+//Featured Content Glider: By http://www.dynamicdrive.com
+//Created: Dec 22nd, 07'
+//Updated (Jan 29th, 08): Added four possible slide directions: "updown", "downup", "leftright", or "rightleft"
+//Updated (Feb 1st, 08): Changed glide behavior to reverse direction when previous button is clicked
+//Updated (Feb 12th, 08): Added ability to retrieve gliding contents from an external file using Ajax ("remotecontent" variable added to configuration)
+//Updated (July 21st, 09): Updated to work in jQuery 1.3.x
+//Updated (Dec 13th, 09): Added keyboard navigation, so left/ right arrow keys now move glider. Fixed bug with auto rotation when "next" link isn't defined.
+
+jQuery.noConflict()
+
+var featuredcontentglider={
+	leftrightkeys: [37, 39], //keycodes to move glider back and forth 1 slide, respectively. Enter [] to disable feature.
+	csszindex: 100,
+	ajaxloadingmsg: '<b>Fetching Content. Please wait...</b>',
+
+	glide:function(config, showpage, isprev){
+		var selected=parseInt(showpage)
+		if (selected>=config.$contentdivs.length){ //if no content exists at this index position
+			alert("No content exists at page "+(selected+1)+"! Loading 1st page instead.")
+			selected=0
+		}
+		var $target=config.$contentdivs.eq(selected)
+		//Test for toggler not being initialized yet, or user clicks on the currently selected page):
+		if (config.$togglerdiv.attr('lastselected')==null || parseInt(config.$togglerdiv.attr('lastselected'))!=selected){
+			var $selectedlink=config.$toc.eq(selected)
+			config.nextslideindex=(selected<config.$contentdivs.length-1)? selected+1 : 0
+			config.prevslideindex=(selected==0)? config.$contentdivs.length-1 : selected-1
+			config.$next.attr('loadpage', config.nextslideindex+"pg") //store slide index to go to when "next" link is clicked on
+			config.$prev.attr('loadpage', config.prevslideindex+'pg')
+			var startpoint=(isprev=="previous")? -config.startpoint : config.startpoint
+			$target.css(config.leftortop, startpoint).css("zIndex", this.csszindex++) //hide content so it's just out of view before animating it
+			var endpoint=(config.leftortop=="left")? {left:0} : {top:0} //animate it into view
+			$target.animate(endpoint, config.speed)
+			config.$toc.removeClass('selected')
+			$selectedlink.addClass('selected')
+			config.$togglerdiv.attr('lastselected', selected+'pg')
+		}
+	},
+
+	getremotecontent:function($, config){
+		config.$glider.html(this.ajaxloadingmsg)
+		$.ajax({
+			url: config.remotecontent,
+			error:function(ajaxrequest){
+				config.$glider.html('Error fetching content.<br />Server Response: '+ajaxrequest.responseText)
+			},
+			success:function(content){
+				config.$glider.html(content)
+				featuredcontentglider.setuptoggler($, config)
+			}
+		})
+	},
+
+	aligncontents:function($, config){
+		config.$contentdivs=$("#"+config.gliderid+" ."+config.contentclass)
+		config.$contentdivs.css(config.leftortop, config.startpoint).css({height: config.$glider.height(), visibility: 'visible'}) //position content divs so they're out of view:
+	},
+
+	setuptoggler:function($, config){
+		this.aligncontents($, config)
+		config.$togglerdiv.hide()
+		config.$toc.each(function(index){
+				$(this).attr('pagenumber', index+'pg')
+				if (index > (config.$contentdivs.length-1))
+					$(this).css({display: 'none'}) //hide redundant "toc" links
+		})
+		var $nextandprev=$("#"+config.togglerid+" .next, #"+config.togglerid+" .prev")
+		$nextandprev.click(function(event){ //Assign click behavior to 'next' and 'prev' links
+			featuredcontentglider.glide(config, this.getAttribute('loadpage'), this.getAttribute('buttontype'))
+			event.preventDefault() //cancel default link action
+		})
+		config.$toc.click(function(event){ //Assign click behavior to 'toc' links
+			featuredcontentglider.glide(config, this.getAttribute('pagenumber'))
+			event.preventDefault()
+		})
+		config.$togglerdiv.fadeIn(1000, function(){
+			featuredcontentglider.glide(config, config.selected)
+			if (config.autorotate==true){ //auto rotate contents?
+				config.stepcount=0 //set steps taken
+				config.totalsteps=config.$contentdivs.length*config.autorotateconfig[1] //Total steps limit: num of contents x num of user specified cycles)
+				featuredcontentglider.autorotate(config)
+			}
+		})
+		config.$togglerdiv.click(function(){
+			featuredcontentglider.cancelautorotate(config.togglerid)
+		})
+		if (this.leftrightkeys.length==2){
+			$(document).bind('keydown', function(e){
+				featuredcontentglider.keyboardnav(config, e.keyCode)
+			})
+		}
+	},
+
+	autorotate:function(config){
+		var rotatespeed=config.speed+config.autorotateconfig[0]
+		window[config.togglerid+"timer"]=setInterval(function(){
+			if (config.totalsteps>0 && config.stepcount>=config.totalsteps){
+				clearInterval(window[config.togglerid+"timer"])
+			}
+			else{
+				featuredcontentglider.glide(config, config.nextslideindex, "next")
+				config.stepcount++
+			}
+		}, rotatespeed)
+	},
+
+	cancelautorotate:function(togglerid){
+		if (window[togglerid+"timer"])
+			clearInterval(window[togglerid+"timer"])
+	},
+
+	keyboardnav:function(config, keycode){
+		if (keycode==this.leftrightkeys[0])
+			featuredcontentglider.glide(config, config.prevslideindex, "previous")
+		else if (keycode==this.leftrightkeys[1])
+			featuredcontentglider.glide(config, config.nextslideindex, "next")
+		if (keycode==this.leftrightkeys[0] || keycode==this.leftrightkeys[1])
+			featuredcontentglider.cancelautorotate(config.togglerid)
+	},
+
+	getCookie:function(Name){ 
+		var re=new RegExp(Name+"=[^;]+", "i") //construct RE to search for target name/value pair
+		if (document.cookie.match(re)) //if cookie found
+			return document.cookie.match(re)[0].split("=")[1] //return its value
+		return null
+	},
+
+	setCookie:function(name, value){
+		document.cookie = name+"="+value
+	},
+
+	init:function(config){
+		jQuery(document).ready(function($){
+			config.$glider=$("#"+config.gliderid)
+			config.$togglerdiv=$("#"+config.togglerid)
+			config.$toc=config.$togglerdiv.find('.toc')
+			config.$next=config.$togglerdiv.find('.next')
+			config.$prev=config.$togglerdiv.find('.prev')
+			config.$prev.attr('buttontype', 'previous')
+			var selected=(config.persiststate)? featuredcontentglider.getCookie(config.gliderid) : config.selected
+			config.selected=(isNaN(parseInt(selected))) ? config.selected : selected //test for cookie value containing null (1st page load) or "undefined" string	
+			config.leftortop=(/up/i.test(config.direction))? "top" : "left" //set which CSS property to manipulate based on "direction"
+			config.heightorwidth=(/up/i.test(config.direction))? config.$glider.height() : config.$glider.width() //Get glider height or width based on "direction"
+			config.startpoint=(/^(left|up)/i.test(config.direction))? -config.heightorwidth : config.heightorwidth //set initial position of contents based on "direction"
+			if (typeof config.remotecontent!="undefined" && config.remotecontent.length>0)
+				featuredcontentglider.getremotecontent($, config)
+			else
+				featuredcontentglider.setuptoggler($, config)
+			$(window).bind('unload', function(){ //clean up and persist
+				config.$togglerdiv.unbind('click')
+				config.$toc.unbind('click')
+				config.$next.unbind('click')
+				config.$prev.unbind('click')
+				if (config.persiststate)
+					featuredcontentglider.setCookie(config.gliderid, config.$togglerdiv.attr('lastselected'))
+				config=null
+				
+			})
+		})
+	}
+}
+</script>
+<!-- JAVA SCRIPT END-->	
+
+ <script type="text/javascript">
+
+featuredcontentglider.init({
+	gliderid: "canadaprovinces", //ID of main glider container
+	contentclass: "glidecontent", //Shared CSS class name of each glider content
+	togglerid: "p-select", //ID of toggler container
+	remotecontent: "", //Get gliding contents from external file on server? "filename" or "" to disable
+	selected: 0, //Default selected content index (0=1st)
+	persiststate: false, //Remember last content shown within browser session (true/false)?
+	speed: 500, //Glide animation duration (in milliseconds)
+	direction: "leftright", //set direction of glide: "updown", "downup", "leftright", or "rightleft"
+	autorotate: true, //Auto rotate contents (true/false)?
+	autorotateconfig: [3000, 2] //if auto rotate enabled, set [milliseconds_btw_rotations, cycles_before_stopping]
+})
+
+</script>
+
+<div id="canadaprovinces" class="glidecontentwrapper">
+
+<!-- [###############Start Table Here]-->
+<div class="glidecontent">
+<P align=justify><span class="style11">01<sup>st</sup>  May 2018</span></P>
+<h3 align="center">New HOD</h3>
+<br />
+
+<p align="justify">
+<img src="../news/images/2018/Jan_Feb/Prof.K.A.S. Kumarage.jpg" width="200" height="170" border="0" style="float: left; padding: 5px "/>Prof. Amal S. Kumarage took over the duties of the Head of the Department from the first of May 2018 for the second time. 
+<div align="right" class="style10">
+    
+                                <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div>
+                                
+                                
+</div>
+
+<!-- [###############END Table Here]-->
+
+
+<!-- [###############Start Table Here]-->
+
+<div class="glidecontent">
+<P align=justify><span class="style11">03<sup>rd</sup> May 2018</span></P>
+<h3 align="center">TLM Mind Challenge</h3> 
+<BR />
+
+<p align="justify">
+
+<img src="../news/images/2018/Jan_Feb/mind challenge 2.jpg" width="190" height="150" border="0" style="float: left; padding: 5px "/>The ultimate challenge for the young minds in the Department of Transport and Logistics Management, University of Moratuwa was unfurled in the Old Gym 
+
+<div align="right" class="style10">
+    
+                                <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div>
+</div>
+                         
+
+<!-- [###############END Table Here]-->
+
+<!-- [###############Start Table Here]-->
+<div class="glidecontent">
+<P align=justify><span class="style11">25<sup>th</sup> January 2018</span></P>
+<h3 align="center">Guest Lecture by DilumLiyanage</h3> <BR />
+<p align="justify">
+<img src="../news/images/2018/Jan_Feb/Guest Lecture.jpg" width="190" height="110" border="0" style="float: left; padding: 5px "/>DilumLiyanage, a former graduate from Transport and Logistics Management, currently working as a Senior Executive at HEMAS HOLDINGS PLC conducted a special guest lecture on self motivation and career goals </p>
+<div align="right" class="style10">
+    
+                              <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div></div>
+<!-- [###############END Table Here]-->                              
+                              
+<!-- [###############Start Table Here]-->                              
+                              
+    <div class="glidecontent">
+<P align=justify><span class="style11">02<sup>nd</sup> January 2018</span></P>
+<h3 align="center">Promotions and New Appointment</h3> 
+<BR />
+<p align="justify">
+<img src="../news/images/2018/Jan_Feb/Shirekha Layangani.jpg" width="71" height="77" border="0" style="float: left; padding: 5px "/><img src="../news/images/2018/Jan_Feb/Thivya_Profile.jpg" width="73" height="83" border="0" style="float: left; padding: 5px "/>ShirekhaLayangani and  ThivyaAmalan were appointed as Lecturers (Probationary) at the Department of Transport and Logistics Management from January 2nd.  </p>
+<div align="right" class="style10">
+    
+                              <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div>                          
+                              
+                              
+                              
+</div>
+<!-- [###############END Table Here]-->
+
+
+
+<!-- [###############Start Table Here]-->
+
+<!-- CUT CUT ...  
+<div class="glidecontent">
+<P align=justify><span class="style11">30<sup>th</sup> September 2017</span> </P>
+<h3 align="center">TranSPORTZ 2017</h3> <BR />
+<p align="justify">
+<img src="../news/images/2017/Sep_Oct/1.2A.jpg" width="190" height="190" border="0" style="float: left; padding: 5px "/>TranSPORTZ 2017, the Annual Sports Day organized by the Society of Transport and Logistics, Department of TLM.</p>
+<div align="right" class="style10">
+    
+                              <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div></div>
+
+ --> 
+<!-- [###############END Table Here]-->
+
+<!-- [###############Start Table Here]-->
+<!-- CUT CUT ....   
+<div class="glidecontent">
+<P align=justify><span class="style11">21<sup>st</sup> September 2017</span></P>
+<h3 align="center">Guest Lecture by Mr.Srinath Fernando</h3> <BR />
+<p align="justify"><img src="../news/images/2017/Sep_Oct/8.2A.jpg" width="190" height="150" border="0" style="float: left; padding: 5px "/>
+A guest lecture was conducted by Mr.Srinath Fernando, the General Manager of the European Chamber of Commerce of Sri Lanka on 21st September 2017.</p>
+<div align="right" class="style10">
+    
+                              <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div></div>
+ --> 
+
+<!-- [###############END  Table Here]-->
+
+<!--   -->  
+ <!--   -->  
+  <!--   --> 
+  <!-- [###############Start Table Here]--> 
+  <!--   
+<div class="glidecontent">
+
+ <P align=justify><span class="style11">15<sup>th</sup> November 2015 </span></P>
+<h3 align="center">The TranSPORTZ 2015</h3> <BR />
+<p align="justify">
+<img src="../news/images/TranSPORTZ 2015 _1.jpg" width="200" height="106" border="0" style="float: left; padding: 5px "/>
+The Society of Transport & Logistics, University of Moratuwa conducted its annual sports day “ TranSPORTZ 2015” on 15th November 2015 at University playground, university of Moratuwa...... <BR />
+<div align="right" class="style10">              
+                                <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div>
+    <BR />
+</div>
+
+<!-- [###############SEND  Table Here]-->
+
+
+
+ 
+  <!--   --> 
+
+
+
+
+
+ <!-- [###############Start Table Here]-->
+<!--
+<div class="glidecontent">
+
+ <P align=justify><span class="style11">28<sup>th</sup>October 2014 </span></P>
+<h3 align="center">Prof. Nelson Perera, University of Wollongong – Visit and Guest Lecture</h3> <BR />
+<p align="justify">
+<img src="../news/images/octNelson.jpg" width="200" height="106" border="0" style="float: left; padding: 5px "/>
+Prof. Nelson Perera, the associate Dean of Sydney Business School, University of Wollongong, visited the Department of Transport and Logistics Management 28th October during his stay in Sri Lanka.  <BR /><div align="right" class="style10">              
+                                <A href="http://www.tlm.mrt.ac.lk/news/news.php" target="_blank"><b><em>Read more</em></b></A></div>
+    <BR />
+</div>
+
+
+-->
+<!-- [###############END  Table Here]-->
+
+<!--   -->  
+
+
+
+</div>
+
+<div id="p-select" class="glidecontenttoggler">
+<!--<a href="#" class="prev">Prev</a> -->
+<a href="#" class="toc">01</a> <a href="#" class="toc">02</a> <a href="#" class="toc">03</a><a href="#" class="toc">04</a><!--     <a href="#" class="toc">05</a> --> <!--     <a href="#" class="toc">06</a> -->
+<!--<a href="#" class="next">Next</a> -->
+</div>                      </div></td>
+                      <td style="background:url(../skin/images/e/r.gif) repeat-y left">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="3%"><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+                      <td style="background:url(../skin/images/e/b.gif) repeat-x top"></td>
+                      <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+                    </tr>
+                  </table>
+                  
+              
+                    <!-- A WEBSITE BY: GISHAN CHATURANGA 
+
+<table width="36%" border="0" cellspacing="0" cellpadding="0" style="margin-top:2px;style="">
+  <tr>
+    <td width="5%"><img src="../skin/images/e/lt.gif" width="8" height="8" /></td>
+    <td width="21%" style="background:url(../skin/images/e/t.gif) top repeat-x"></td>
+    <td width="74%"><img src="../skin/images/e/rt.gif" width="8" height="8" /></td>
+  </tr>
+  <tr>
+    <td style="background:url(../skin/images/e/l.gif) right repeat-y"></td>
+    <td> <div style="width:223px; height:auto; background:#FFFFFF; padding:5px">&nbsp;Click<A href="mailto:tlm-info@uom.lk"> here </A> to submit a news and events 
+     </div></td>
+    
+    <td style="background:url(../skin/images/e/r.gif) left repeat-y"></td>
+  </tr>
+  <tr>
+    <td><img src="../skin/images/e/lb.gif" width="8" height="8" /></td>
+    <td style="background:url(../skin/images/e/b.gif) top repeat-x"></td>
+    <td><img src="../skin/images/e/rb.gif" width="8" height="8" /></td>
+  </tr>
+</table>
+-->
+<!-- A WEBSITE BY: GISHAN CHATURANGA --> 
+                  
+  <!-- A WEBSITE BY: GISHAN CHATURANGA -->                 
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  </td>
+                </tr>
+                
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+         
+        <tr>
+          <td colspan="2" valign="top" class="topbottom"><div style="height:1px"></div></td>
+          </tr>
+          
+          
+          
+          
+          
+        <tr>
+          <td colspan="2" valign="top" class="bottom"><div id="bottom">Copyright 2010 &copy; Department of Transport and Logistics Management
+         
+
+
+<!-- Begin
+var ran
+ran = Math.round(Math.random()*50000)
+function alertUser() {
+alert("You are visitor number " + ran + " to this page.")
+}
+// End -->
+
+          
+          </div></td>
+        </tr>
+        
+      </table>      </td>
+    </tr>
+   
+  </table>
+</div></div>
+<div style="text-align:center"><img src="../skin/images/bottom.jpg" width="980" height="24" /></div>
+<div id="updated">Last updated on: Wednesday, June ,06, 2018 
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12423567-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- 
+Copyright 2010 © Gishan Chaturanga,
+Department of Transport and Logistics Management,
+Faculty of Engineering - University of Moratuwa 
+-->
+<!-- A WEBSITE BY: GISHAN CHATURANGA -->
+
+
+
+</body>
+</html>
