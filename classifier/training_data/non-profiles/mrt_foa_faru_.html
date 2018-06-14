@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link href="themes/8/js-image-slider.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+ <link rel="stylesheet" type="text/css" href="styles/only_ie.css" />
+<![endif]-->
+<![if !IE]>
+<link rel="stylesheet" type="text/css" href="styles/main_css.css" />
+<![endif]>
+<link href="styles/text_styles.css" rel="stylesheet" type="text/css" />
+<script src="themes/8/js-image-slider.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/expand.js"></script>
+<script type="text/javascript">
+        //The following script is for the group 2 navigation buttons.
+        function switchAutoAdvance() {
+            imageSlider.switchAuto();
+            switchPlayPauseClass();
+        }
+        function switchPlayPauseClass() {
+            var auto = document.getElementById('auto');
+            var isAutoPlay = imageSlider.getAuto();
+            auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+            auto.title = isAutoPlay ? "Pause" : "Play";
+        }
+        switchPlayPauseClass();
+    </script>
+<!---- these scripts for article expansion.... ----->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(function() {
+    // --- first section initially expanded:
+   // $("h2.expand").toggler({initShow: "div.collapse:first"});
+    // --- Other options:
+    //$("h2.expand").toggler({method: "toggle", speed: 0});
+    //$("h2.expand").toggler({method: "toggle"});
+    //$("h2.expand").toggler({speed: "fast"});
+    //$("h2.expand").toggler({method: "fadeToggle"});
+   $("h2.expand").toggler({method: "slideFadeToggle",speed:"slow"});    
+    $("#content").expandAll({trigger: "h2.expand", ref: "div.demo",  speed: 300, oneSwitch: false});
+});
+//--><!]]>
+</script>
+<!--<![endif]-->
+<script type="text/javascript">
+        imageSlider.thumbnailPreview(function (thumbIndex) { return "<img src='images/thumb" + (thumbIndex + 1) + ".jpg' style='width:70px;height:44px;' />"; });
+    </script>
+<title>Faculty of Architecture Research Unit</title>
+</head>
+<body id="body">
+<!--[if IE]>
+<div  style="position: relative; margin: 0 auto;">
+<![endif]-->
+<![if !IE]>
+<div align="center">
+<![endif]>
+<div id="main">
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles/header_styles.css" />
+<link rel="stylesheet" type="text/css" href="styles/menu_styles.css" />
+<script type="text/javascript" src="js/menu.js" ></script>
+</head>
+<body>
+<div id="header_back"></div>
+<div id="menu_back_header"></div>
+<div id="header_main" >
+
+		
+
+
+<div id="menu_div">
+
+<div id="sse1">
+  <div id="sses1">
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="pfd.php">Previous FARU Directors</a></li>
+      <li><a href="sr.php">Staff & Student Research</a></li>
+      <li><a href="pfc.php"> Previous FARU Conferences</a></li>
+	  <li><a href="faru2017.php">FARU 2017</a></li>
+             
+    </ul>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+</body>
+</html><![if !IE]>
+<div id="slide_show"	 align="center">
+  <![endif]>
+  <div id="sliderFrame" style="">
+    <div id="slider"><img src="images/new_slide_show_images/slide.jpg" alt="#cap1" /><img src="images/new_slide_show_images/slide1.jpg" alt="#cap2" /><img src="images/new_slide_show_images/slide2.jpg" alt="#cap3" /><img src="images/new_slide_show_images/slide3.jpg" alt="#cap4" /><img src="images/new_slide_show_images/slide4.jpg" alt="#cap5" /><img src="images/new_slide_show_images/slide5.jpg" alt="#cap6" /><img src="images/new_slide_show_images/slide6.jpg" alt="#cap7" /><img src="images/new_slide_show_images/slide7.jpg" alt="#cap8" /><img src="images/new_slide_show_images/slide8.jpg" alt="#cap9" /></div>
+    <div style="display: none;">
+    <div id="cap1"></div>
+      <div id="cap2"></div>
+      <div id="cap3"></div>
+      <div id="cap4"></div>
+      <div id="cap5"></div>
+      <div id="cap6"></div>
+      <div id="cap7"></div>
+      <div id="cap8"></div>
+      <div id="cap9"></div>
+     </div>
+  </div>
+</div>
+<div id="article_container">
+  <div id="contacts_div"> <br />
+        <h3 align="center">Contact details<br />	
+         <hr align="right" width="80%"></h3><br />
+         <font color="#FFFFFF">
+   <strong>Dr. Upendra Rajapakshe</strong> <br />(Director - FARU)<br />
+ Faculty of Architecture<br />
+ University of Moratuwa<br />
+ Sri Lanka<br />
+ Email: faru@uom.lk<br />
+ Phone: +94 112 650301 Ext: 7100<br /><br /><br />
+    
+<strong>Mr. AMS Attanayake</strong><br />
+Administrative & Technical Coordinator <br />
+Phone: +94 112 650301 Ext: 7136<br />
+Email: ruwana@uom.lk<br /><br /><br /><br /><br/>
+ 
+  </div>
+<!--  <div id="key_dates_div"><br />
+    <h3 align="center">The Important Dates</h3>
+     <hr align="center" width="80%"><br />
+    Deadline for abstract submission:<br>
+    <b><s> 10th May, 2016</s> Extended to 18th May 2016</b><br />
+    <br />
+    Notifications of acceptance of abstracts:<br>
+    <b>24th May, 2016</b><br>
+    <br />
+    Full Paper submission:<br>
+    <b>11th July, 2016</b><br>
+    <br />
+    Notification of Acceptance of Final Paper:<br>
+    <b>29th July, 2016</b><br>
+    <br />
+    Final paper submission for publication<br> 
+    <b>15th August, 2016 </b><br>
+     <br />
+    Conference:<br>
+    <b>9th & 10th September, 2016</b><br> 
+    <br />
+    Conference Tour:<br>
+    <b>11th September, 2016</b><br> 
+    <br />
+     
+         </div>-->
+		  <div id="introduction" style="background-color:#FFFFFF !important; border:none; text-align:justify; margin-left:20px">
+        </p>
+  </div>
+  <font color="#333300">
+    
+  <div id="introduction">
+  <div style="margin-left:10px; font-weight:bold; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+      </div>
+    <div align="justify" style="margin-left:10px; margin-right:10px;  padding-left: 10px; padding-right: 10px;">
+      <p>
+Faculty of Architecture Research Unit (FARU) of University of Moratuwa aims at promoting a distinctive research culture across all its disciplines i.e. architecture, planning, building economics and integrated design. Diversity of the FARU represented in the wide range of research undertaken by the faculty and students, both undergraduate and postgraduate.</br></br>
+
+FARU is undergoing a fundamental effort to develop a practice led research base, which will both enable and guide the industry and policy implementation programs of the country. As part of the effort, organizing an annual international conference, publishing quarterly newsletters, undertaking research consultancies, conducting regular research colloquiums for the staff and post-graduate students can lead the Faculty of Architecture a local leadership role in making the built environments responsive and relevant.</br></br>
+
+FARU advances research collaborations with international universities with the initiatives and participation from the research faculty uniquely credentialed to address problems and needs related to national and global built environment issues. </br>
+
+</div><br/>
+      </div><br/>
+ <!--<div class="collapse">
+    <div style="margin-left:5px; font-weight:bold; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+      Conference Theme</br></div>
+      <div align="justify" style="margin-left:10px; margin-right:10px;  padding-left: 10px; padding-right: 10px;">
+      In recent years, there has been a need to make buildings able to withstand natural and man-made disasters and disturbances as well as long term changes in the surrounding environment resulting from climate change effects that would otherwise be catastrophic. Further, there is starting to be research and practice initiatives to understand the dynamics of changes in the environment. This effort is not only focused onto natural disasters due to climate change but to other significant and unforeseen areas such as quality of life, indoor and outdoor environments, energy use, health and well-being of people due to built environments and environmental and social cultural sustainability of the buildings.<br/><br/>
+
+Resilient built environments are the appropriately and intentionally design spaces, neighborhoods, cities and communities in order to address and challenge negative effects of disturbances. With building owners, occupiers and designers constantly trying to meet project timelines and goals to deliver maximum profits and short term benefits, resilience of built environments are least concerned. Therefore, how can we design future resilient built environments protecting occupants and users, our cities and neighborhoods is a question to address and investigate. <br/>
+ </br>	
+ <b> Abstract submission</b></br> 
+          <div align="justify" style="margin-left:0px; margin-right:0px; font-weight:normal;">Abstracts of 250-300 words are invited to be submitted for double – blind review. Do not include the author details with the abstract. Once the abstract is submitted through the Conference Management System and via e mail, an “Identification Number” will be allocated for each submission. Selected authors will be invited to submit a full paper for a further review. <br/><br/>
+
+
+        
+         <p align="left"><a href="https://easychair.org/conferences/?conf=faru2016">Click here</a> to submit your Abstract. In addition,</br>  please forward a PDF version via e mail <a href="mailto:faru@uom.lk">faru@uom.lk</a>    </p></br> 
+        
+        
+        <a href="http://www.mrt.ac.lk/foa/faru2016/Documents/Conference registration form.doc">DOWNLOAD CONFERENCE REGISTRATION FORM</a></br> </br> 
+	  </div>
+</div>
+</div>
+
+ 
+   <br />
+ <div class="collapse">
+   </b>
+	  <div style="margin-left:10px; font-weight:normal; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+      <b> Keynote Speakers:</b></br></br>
+       <table width="" cellspacing="10" cellpadding="10" border="0">
+  <tr> 
+  <td width="300">
+    <b>Professor Koen Steemers</b>&nbsp;</td>
+    <td width="25">&nbsp;</td>
+    <td width="300"><b>Professor Amal S. Kumarage</b>&nbsp;</td>
+  </tr>
+    <tr>
+    <td><img src="images/k1.jpg" id="keynote speaker" width="254" height="212" style="margin-left:0px;">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><img src="images/k2.jpg" id="keynote speaker" width="254" height="212" style="margin-left:0px;">&nbsp;</td>
+  </tr>
+  <tr><tr align="justify" valign="top" >
+    <td>Professor of Sustainable Design</br> Head of the Department of Architecture</br> The University of Cambridge, UK</br></br>
+      Koen Steemers is an architect and environmental design specialist and Professor of Sustainable Design in the Department of Architecture, where he was Head of Department (2008-14), and Head of Research as the Director of the Martin Centre for Architectural and Urban Studies (2003-08). His current work deals with the environmental performance of buildings and cities, ranging from energy use to human wellbeing. He leads the ‘Behaviour and Building Performance’ research group of 15 academics and research students in his Department.</br></br>
+      <a href="http://www.arct.cam.ac.uk/people/kas11@cam.ac.uk">For more detail..</a></br>&nbsp;&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Senior Professor</br> Department of Transport & Logistics</br> University of Moratuwa, Sri Lanka</br></br> Amal Kumarage is a transport sector professional with over 30 years experience in academia, government and consulting. As an academic and researcher he has set up several academic programs and a department of study at the University of Moratuwa where he is currently a Senior Professor. He has served as advisor to several ministries in the Government of Sri Lanka as well as the Maldives. He has served as a World Bank and ADB consultant both in Sri Lanka and many other Asian countries. He holds a Civil Engineering degree from the University of Moratuwa and a PhD in Transport Planning & Engineering from the University of Calgary. <br/><br/>
+    <a href="http://www.tlm.mrt.ac.lk/staff/Prof_Amal_S_Kumarage.php">For more detail..</a></br>&nbsp;&nbsp;
+
+    
+    </td>
+  </tr>
+  </table>
+      
+     </div>
+</div> 
+      
+     </br>
+      
+      
+      
+      
+      <!--<table width="" cellspacing="10" cellpadding="10" border="0">
+  <tr> 
+  <td width="300">
+    <b>Professor Marc Aural Schnable</b>&nbsp;</td>
+    <td width="25">&nbsp;</td>
+    <td width="300"><b>Professor Jurgen Reichardt</b>&nbsp;</td>
+  </tr>
+    <tr>
+    <td><img src="images/k1.jpg" id="keynote speaker" width="120" height="120" style="margin-left:10px;">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><img src="images/k2.jpg" id="keynote speaker" width="120" height="120" style="margin-left:10px;">&nbsp;</td>
+  </tr>
+  <tr><tr align="justify" valign="top" >
+    <td><a href="http://aurel.pro/">Marc Aurel Schnabel</a> is an Architect and Professor in Architectural Technology at the School of Architecture, Victoria University of Wellington, New Zealand and Visiting Professor at School of Architecture, Sheffield University.He is the Past President of CAADRIA, the international Association for Computer Aided Architectural Design Research in Asia, Past Chair of the Industry Advisory Board of Autodeskand and founding member of buildingSMART HK, He has taught and worked in Germany, Australia and Hong Kong for over twenty years. He is engaged in research of augmented- and virtual reality, digital heritage, parametric design learning and inter-professional development. He publishes extensively in internationally about novel perspectives in digital architecture and urban design. He curated two digital architectural exhibitions, Disparallel Spaces at Tin Sheds- and 8448cubed at Gaffa Galleries, and chaired several international conferences, He has established the Digital Architecture Research Alliance, DARA, as well as the online social network Urban Digitalics connecting professionals and researchers in innovative digital spatial design.&nbsp;&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><a href="https://www.thm.de/fsz/organisation/dozenten/37-dozenten-des-fsz/145-reichardt/">Professor Jurgen Reichardt</a> studied Architecture at the University of Karlsruhe and the University of Brunswick. From 1988 to 1995. In 1992, he founded his office Reichardt Architects with a focus on planning of industrial plants and logistics centers for various reputed clients in and around Germany. Since 1996, he is a Professor for Building Construction and Industrial Building at the Muenster School of Architecture. Since 2008 he operates as partner his German office RMA Reichardt-Maas-Associated Architects GmbH & Co. KG in Essen, Germany, and is partner of BR Architects & Engineers Pvt. Ltd. in Bangalore, India. &nbsp;&nbsp;<br/><br/>
+<b>Professor Saroj Jayasinghe</b><br/><br/> 
+<img src="images/k3.jpg" id="keynote speaker" width="120" height="130" style="margin-left:10px;"><br/><br/>
+
+<a href="http://www.med.cmb.ac.lk/index.php/clinical-staff?id=190">Saroj Jayasinghe</a> is a professor of Clinical Medicine, Faculty of Medicine, Colombo, Sri Lanka, and is an honorary consultant physician to the National Hospital of Sri Lanka.<br/>
+    
+    </td>
+  </tr>
+  </table>
+
+     
+	 <br/>
+
+      </div>
+     
+	  </div>
+      </div><br/>-->
+ <!--<div class="collapse">
+    <div style="margin-left:5px; font-weight:bold; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+      Papers are invited under the following broad themes:</br>
+      <div style="margin-left:10px; font-weight:normal; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;">
+      <li>Adaptation to Local and Global Changes 
+      <li>Architecture for Tomorrow</li>
+      <li>Art and Science in Architecture & Design</li>
+      <li>Emerging Practices in Facilities Management</li>
+      <li>Innovations in Construction Industry</li>
+      <li>Innovative Products and Processes</li>
+      <li>Planning for Emerging Challenges and Changing Needs</li>
+      <li>Procurement and Intergraded Project Delivery</li>
+      <li>Sustainable Built Environments</li></p> </br>	
+	  </div>
+</div>
+</div>
+</div>
+  </div>
+   <br />-->
+  <!--  <div class="collapse">
+   
+	  <div style="margin-left:0px; font-weight:bold; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+       The Scientific Committee:</br>
+      <div style="margin-left:10px; font-weight:normal; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+<b>Professor Richard Hyde, </b>Editor in Chief- Architectural Science Review
+Honorary Professor, Faculty of Architecture, Design and Planning, The University of Sydney, Australia<br/>
+<b>Professor Fergus Nicol, </b>Professor Emeritus of Architecture, Oxford Brooke University, United Kingdom<br/>
+<b>Professor Juergen Reichardt, </b>Munster University of Applied Sciences, Germany<br/>
+<b>Prof. Horoshi Yoshino, </b>Professor Emeritus, Tohoku University, Japan and Secretary Science Council Asia<br/>
+<b>Professor Susan Roaf, </b>Hariot Watt University, United Kingdom<br/>
+<b>Professor Richard Haigh, </b>Global Disaster resilience Centre, University of Huddersfield, United Kingdom<br/>
+<b>Professor Robert Brown,</b> Professor of Architecture, Plymouth University, United Kingdom <br/> 
+<b>Professor Dilanthi Amaratunga,</b> University of Huddersfield, United Kingdom<br/>
+<b>Professor Marc Aural Schnable,</b> School of Architecture, Victoria University of Wellington, New Zealand <br/>
+<b>Professor Samitha Manawadu,</b> Professor, Department of Architecture, University of Moratuwa, Sri Lanka<br/>
+<b>Dr. Sepani Senaratne,</b> Western Sydney University, Australia<br/>
+<b>Professor Rohinton Emmanuel, </b>Glasgow Caledonian University, UK<br/>
+<b>Dr. Jagath Munasinghe, </b> Senior Lecturer, Department of Town and Country planning, University of Moratuwa, Sri Lanka<br/>
+<b>Dr. Indrika Rajapaksha, </b> Senior Lecturer, Department of Architecture, University of Moratuwa, Sri Lanka <br/>
+<b>Dr. Rangika Halwathura,</b> Senior Lecturer, Department of Civil Engineering, University of Moratuwa, Sri Lanka<br/>
+<b>Dr. Angelique Chettiparambil, </b>University of Reading, United Kingdom<br/>
+<b>Professor Barbara Rahder, </b>York University, Canada <br/>
+<b>Dr. Julie Rudner,</b> La Trobe University, Australia<br/>
+<b>Dr. Yasangika Sandanayake, </b>Senior Lecturer,  Department of Building Economics, University of Moratuwa, Sri Lanka<br/>
+<b>Dr. Wasana de Silva,</b>Senior Lecturer, Department of Architecture, University of Moratuwa, Sri Lanka <br/>
+<b>Dr. Rizvi Noordeen, </b>Senior Lecturer, Department of Town and Country planning, University of Moratuwa, Sri Lanka<br/>
+<b>Associate Professor, Tilanka Chandrasekara,</b> Oklahoma State University, USA<br/>
+<b>Dr. Shaleeni Cooray,</b>Senior Lecturer, Department of Architecture, University of Moratuwa, Sri Lanka <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+	 </br>	
+	  </div>
+</div>
+</div>-->
+
+
+<!--</br>	
+  <div class="collapse">
+    <div style="margin-left:5px; font-weight:bold; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+        Organizing Committee:</br>
+      <div style="margin-left:20px; font-weight:normal; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;">
+      <li><b>Symposium Chair:</b> Prof. Lalith de Silva</li> 
+      <li><b>Symposium Co-chair:</b> Dr. Upendra Rajapaksha</li> 
+      <li><b>Members:</b> Ms. Shaleeni Mariadas, Dr. Indrika Rajapaksha, Archt. Prasanna Liyanage, Dr. Rasanga Wijethunga, Dr. Yasangika Sandanayake, Archt. Nadeeka Jayaweera, Archt. Kavindra Herath</li>
+      <li><b>Secretariat:</b> Mr. AMS Attanayake, Ms. Tharanga Kumari, Mr. Pricil de Mel & </li><div style="margin-left:83px"> Mr. R A J Kithsiri </br></br>	</br> </br>   </br>	   </br>	
+	 </div>
+	  </div>
+	 </div></div>   -->
+      
+ 
+  <!--<div class="collapse">
+    <div style="margin-left:5px; font-weight:normal; margin-right:5px; text-align:left;  padding-left: 10px; padding-right: 10px;"><br/>
+        <b>Organized by:</b></br>
+          Faculty of Architecture Research Unit,University of Moratuwa <br/><br/>
+      <b>Co Organizer:</b><br/>National Science Foundation, Sri Lanka<br/><br/>
+      <img src="images/sponsors/s1.jpg" id="spn_image" width="250" height="122" style="margin-right:20px; margin-bottom:20px"><br/>
+      <b>Sponsors:</b><br/>Blue Scope Lysaght Lanka (Pvt.) Ltd.<br/> EastWest Clearing and Forwarding (Pvt.) Ltd.</br>JAT Holdings (Pvt) Ltd </br>True Value Products (Pvt) Ltd. </br>	Light & Shade Windowware<br/><br/>
+      <img src="images/sponsors/s2.jpg" id="spn_image" width="250" height="143" style="margin-right:20px; margin-bottom:20px"><br/>
+      
+     
+	  </div>
+	 </div>-->
+      </br>	
+ </div> 
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles/footer_styles.css" />
+</head>
+<body>
+<div id="footer_main">
+<div id="footer_menu_container" >
+<div id="footer_menu">
+
+
+
+<a href="http://www.mrt.ac.lk/foa/">Faculty Home</a>&nbsp;
+<a href="http://www.mrt.ac.lk/">University of Moratuwa</a>&nbsp;
+<a href="http://www.ugc.ac.lk/">University Grants Commission</a>&nbsp;
+
+
+</div>
+
+</div>
+
+</body>
+
+</html></div>
+</div>
+</body>
+</html>
+ 
