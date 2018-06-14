@@ -52,7 +52,6 @@ class UniversitySpider(CrawlSpider):
     def parse_page(self, response):
         try:
             item = UniversityWebPageItem()
-            item['title'] = self.get_title(response)
             item['url'] = response.url
             if self.classifier:
                 score = self.classifier.predict_web_page(response.text)

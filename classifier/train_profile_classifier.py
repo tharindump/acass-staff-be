@@ -7,7 +7,7 @@ from preprocessor import clean_page
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 import _pickle
-from config import TRAINING_DATA_DIR
+from config import *
 
 
 def load_web_pages():
@@ -27,8 +27,12 @@ def count_words():
     stop_words_set = set(stopwords.words('english'))
     words_list = []
 
+    idx = 0
+
     for web_page in web_pages_list:
         try:
+            idx += 1
+            print(idx)
             with open(web_page, 'r', encoding='utf8') as f:
                 # clean page with pre-processor
                 formatted_page = clean_page(f.read())
@@ -49,6 +53,11 @@ def count_words():
     print('Words =', len(words_list), '| BoW =', len(bag_of_words))
     print(bag_of_words.most_common())
 
+    # saving BoW
+    with open('bag_of_words.mdl', 'wb') as f:
+        _pickle.dump(bag_of_words, f)
+        print("Saved the BoW")
+
     return bag_of_words.most_common(5000)
 
 
@@ -66,7 +75,8 @@ def create_dataset(bag_of_words):
                 f.close()
 
             # tokenize the page text
-            words_list = word_tokenize(formatted_page)
+            formatted_page_lower = formatted_page.lower()
+            words_list = word_tokenize(formatted_page_lower)
             word_occurrence = []
 
             # calculate word occurrence in the page with bag of words
@@ -86,8 +96,23 @@ def create_dataset(bag_of_words):
     return features_set, labels
 
 
+def get_bow():
+    bow_path = CLASSIFIER_MODEL_DIR+BAG_OF_WORDS_
+    try:
+        with open(bow_path, 'rb') as f:
+            bow = _pickle.load(f)
+            return bow.most_common(5000)
+    except:
+        return False
+
+
 if __name__ == '__main__':
-    bow = count_words()
+
+    if get_bow():
+        bow = get_bow()
+    else:
+        bow = count_words()
+
     feature_set, labels = create_dataset(bow)
 
     # splitting data

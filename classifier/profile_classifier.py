@@ -7,10 +7,11 @@ from preprocessor import clean_page
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 import _pickle
-from classifier.train_profile_classifier import count_words
+from classifier.train_profile_classifier import count_words, get_bow
 import numpy as np
 
-class NaiveBayesClassifier(object):
+
+class MNBClassifier(object):
 
     def __init__(self, model):
         print("Initializing classifier.")
@@ -20,10 +21,12 @@ class NaiveBayesClassifier(object):
         with open(model, 'rb') as f:
             self.classifier = _pickle.load(f)
 
-        with open('D:/Workspace/Project_L4/acass-staff-be/bag_of_words.mdl', 'rb') as f:
-            self.bag_of_words = _pickle.load(f)
+        # with open('D:/Workspace/Project_L4/acass-staff-be/bag_of_words.mdl', 'rb') as f:
+        #     self.bag_of_words = _pickle.load(f)
 
-        #self.bag_of_words = count_words()
+        self.bag_of_words = get_bow()
+
+        # self.bag_of_words = count_words()
         print('Classifier is ready.')
 
     def predict_web_page(self, page):

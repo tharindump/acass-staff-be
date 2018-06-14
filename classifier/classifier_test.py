@@ -1,12 +1,12 @@
 import _pickle
 import requests
-from classifier.profile_classifier import NaiveBayesClassifier
+from classifier.profile_classifier import MNBClassifier
 import config
 
 if __name__ == '__main__':
 
     clf_path = config.CLASSIFIER_MODEL_DIR+config.CLASSIFIER_MODEL_NAME
-    nbclf = NaiveBayesClassifier(clf_path)
+    nbclf = MNBClassifier(clf_path)
 
     while True:
         inp = input('>> ')

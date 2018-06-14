@@ -7,3 +7,4 @@ TRAINING_DATA_DIR = 'D:/Workspace/Project_L4/acass-staff-be/classifier/training_
 
 CLASSIFIER_MODEL_DIR = 'D:/Workspace/Project_L4/acass-staff-be/classifier/'
 CLASSIFIER_MODEL_NAME = 'profile-classifier.mdl'
+BAG_OF_WORDS_ = 'bag_of_words.mdl'

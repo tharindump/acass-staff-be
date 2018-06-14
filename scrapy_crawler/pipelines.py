@@ -29,7 +29,7 @@ class ScrapyCrawlerPipeline(object):
 
 class JsonPipeline(object):
     def __init__(self):
-        self.file = open('books.json', 'wb')
+        self.file = open('output.json', 'wb')
         self.exporter = JsonItemExporter(self.file,
                                          encoding='utf-8',
                                          ensure_ascii=False)
