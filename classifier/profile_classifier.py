@@ -3,46 +3,44 @@ from collections import Counter
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-from preprocessor import clean_page
-from nltk import word_tokenize
-from nltk.corpus import stopwords
-import _pickle
-from classifier.train_profile_classifier import count_words, get_bow
+from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 
+from preprocessor import clean_page
+import _pickle
+import config
 
-class MNBClassifier(object):
 
-    def __init__(self, model):
+class EnsembleClassifier():
+
+    def __init__(self):
         print("Initializing classifier.")
-        self.name = "Multinomial Naive Bayes based Profile classifier"
+        self.name = "Ensemble Profile Classifier"
 
         # loading classifier model
-        with open(model, 'rb') as f:
-            self.classifier = _pickle.load(f)
+        path = config.CLASSIFIER_MODEL_DIR
 
-        # with open('D:/Workspace/Project_L4/acass-staff-be/bag_of_words.mdl', 'rb') as f:
-        #     self.bag_of_words = _pickle.load(f)
+        with open(path + config.MNB_CLASSIFIER, 'rb') as f:
+            self.mnb_classifier = _pickle.load(f)
 
-        self.bag_of_words = get_bow()
+        with open(path + config.SVM_CLASSIFIER, 'rb') as f:
+            self.svm_classifier = _pickle.load(f)
 
-        # self.bag_of_words = count_words()
+        # loading TFIDF Vectorizer
+        with open(path + config.TFIDF_VECTORIZER, 'rb') as f:
+            self.vectorizer = _pickle.load(f)
+
         print('Classifier is ready.')
 
     def predict_web_page(self, page):
         formatted_page = clean_page(page)
-        words_list = word_tokenize(formatted_page)
+        feature_tf = self.vectorizer.transform([formatted_page])
 
-        features = []
-        for word in self.bag_of_words:
-            features.append(words_list.count(word[0]))
+        svm_probability = self.svm_classifier.predict_proba(feature_tf.toarray())
+        mnb_probability = self.mnb_classifier.predict_proba(feature_tf.toarray())
 
-        predicted_result = self.classifier.predict([features])
-        prob = self.classifier.predict_proba([features])
+        print(svm_probability, mnb_probability)
 
-        # print(prob)
+        predicted_result = self.mnb_classifier.predict(feature_tf.toarray())
         result = np.asscalar(np.int32(predicted_result[0]))
         return result
-
-    def score(self, page):
-        return 22.33

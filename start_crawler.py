@@ -2,7 +2,7 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.project import get_project_settings
 from twisted.internet import reactor
 from threading import Thread
-from classifier.profile_classifier import MNBClassifier
+from classifier.profile_classifier import EnsembleClassifier
 import config
 
 
@@ -25,7 +25,7 @@ def run_crawler(input_module_name, classifier):
 
 def start_reactor(module_name):
     model_path = config.CLASSIFIER_MODEL_DIR + config.CLASSIFIER_MODEL_NAME
-    classifier = MNBClassifier(model_path)
+    classifier = EnsembleClassifier(model_path)
     Thread(target=run_crawler, args=[module_name, classifier]).start()
 
 

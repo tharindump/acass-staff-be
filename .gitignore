@@ -4,3 +4,4 @@ __pycache__/
 .scrapy/
 test.py
 output.json
+*/models/
