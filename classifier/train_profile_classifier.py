@@ -52,3 +52,5 @@ if __name__ == '__main__':
     with open(CLASSIFIER_MODEL_DIR + TFIDF_VECTORIZER, 'wb') as f:
         _pickle.dump(vectorizer, f)
         print("Saved the classifier")
+
+    X, y = create_vector()

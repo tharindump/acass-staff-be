@@ -5,9 +5,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
+import _pickle
 
 from preprocessor import clean_page
-import _pickle
 import config
 
 
@@ -41,6 +41,17 @@ class EnsembleClassifier():
 
         print(svm_probability, mnb_probability)
 
-        predicted_result = self.mnb_classifier.predict(feature_tf.toarray())
-        result = np.asscalar(np.int32(predicted_result[0]))
+        # predicted_result = self.mnb_classifier.predict(feature_tf.toarray())
+        # result = np.asscalar(np.int32(predicted_result[0]))
+
+        result = self.weighted_mean_prediction(svm_probability[0,1], mnb_probability[0,1], svm_acc=0.8, mnb_acc=0.65)
+
         return result
+
+    def weighted_mean_prediction(self, svm_pred, mnb_pred, svm_acc, mnb_acc):
+        mean_prob = (svm_pred * svm_acc + mnb_pred * mnb_acc) / (svm_acc + mnb_acc)
+        print(mean_prob)
+        if mean_prob > 0.60:
+            return 1
+        else:
+            return 0
