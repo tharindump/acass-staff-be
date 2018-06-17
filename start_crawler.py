@@ -3,16 +3,17 @@ from scrapy.utils.project import get_project_settings
 from twisted.internet import reactor
 from threading import Thread
 from classifier.profile_classifier import EnsembleClassifier
-import config
+from scrapy.utils.log import configure_logging
 
 
-def run_crawler(input_module_name, classifier):
+def run_crawler(classifier):
     print("Crawler started")
 
+    configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
     # when using this class to run the crawler, the reactor should be explicitly run
     runner = CrawlerRunner(get_project_settings())
 
-    d = runner.crawl('university_spider', module_name=input_module_name, classifier=classifier)
+    d = runner.crawl('unispider', classifier=classifier)
     d.addBoth(lambda _: reactor.callFromThread(reactor.stop))
 
     # twisted reactor can run in any thread, but only one thread at a time
@@ -23,11 +24,10 @@ def run_crawler(input_module_name, classifier):
     print("End of reactor method")
 
 
-def start_reactor(module_name):
-    model_path = config.CLASSIFIER_MODEL_DIR + config.CLASSIFIER_MODEL_NAME
-    classifier = EnsembleClassifier(model_path)
-    Thread(target=run_crawler, args=[module_name, classifier]).start()
+def start_reactor():
+    classifier = EnsembleClassifier()
+    Thread(target=run_crawler, args=[classifier]).start()
 
 
 if __name__ == '__main__':
-    start_reactor('Human Computer Interaction')
+    start_reactor()

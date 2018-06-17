@@ -21,9 +21,15 @@ def run_pages():
     page3 = requests.get('http://ucsc.cmb.ac.lk/profile/spw/')
     score_calc.calculate_relevance_score(page3.text, "Human Computer Interaction")
 
-import _pickle
-from classifier.train_profile_classifier import count_words
 if __name__ == "__main__":
-    bag_of_words = count_words()
-    with open('bag_of_words.mdl', 'wb') as f:
-        _pickle.dump(bag_of_words, f)
+    from sklearn.datasets import fetch_20newsgroups
+    from sklearn.feature_extraction.text import CountVectorizer
+
+    categories = ['alt.atheism', 'soc.religion.christian', 'comp.graphics', 'sci.med']
+    twenty_train = fetch_20newsgroups(subset='train',
+                                      categories=categories, shuffle=True, random_state=42)
+
+    count_vect = CountVectorizer()
+    X_train = count_vect.fit_transform(twenty_train)
+    print(len(twenty_train))
+    print(X_train)

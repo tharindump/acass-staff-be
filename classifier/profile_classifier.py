@@ -39,7 +39,7 @@ class EnsembleClassifier():
         svm_probability = self.svm_classifier.predict_proba(feature_tf.toarray())
         mnb_probability = self.mnb_classifier.predict_proba(feature_tf.toarray())
 
-        print(svm_probability, mnb_probability)
+        # print(svm_probability, mnb_probability)
 
         # predicted_result = self.mnb_classifier.predict(feature_tf.toarray())
         # result = np.asscalar(np.int32(predicted_result[0]))

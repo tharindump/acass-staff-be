@@ -8,6 +8,7 @@
 from scrapy import signals
 from scrapy.exceptions import IgnoreRequest
 import re
+from managedb import get_db
 
 class ScrapyCrawlerSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -108,6 +109,12 @@ class IgnoreURLsDownloaderMiddleWare(object):
 
     def __init__(self):
         self.crawled_urls = set()
+        self.deny_url_contains = ["lib.","library","taxonomy", "image", "repo"]
+        self.database = get_db()
+        index_store = self.database.get_collection('index_store')
+        urls = index_store.find({}, {"_id": 0, "score": 0, "added_date": 0})
+        for url in urls:
+            self.crawled_urls.add(url['url'])
 
     def process_request(self, request, spider):
         # print(request.url)
@@ -119,7 +126,7 @@ class IgnoreURLsDownloaderMiddleWare(object):
             print("Duplicate request", request.url)
             raise IgnoreRequest()
 
-        elif re.search(r"(lib\.|library|taxonomy)", request.url, re.IGNORECASE):
+        elif any(x in request.url for x in self.deny_url_contains):
             raise IgnoreRequest()
 
         else:

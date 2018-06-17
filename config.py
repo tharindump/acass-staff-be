@@ -4,6 +4,7 @@ DATABASE_CONFIG = {
 }
 
 TRAINING_DATA_DIR = 'D:/Workspace/Project_L4/acass-staff-be/classifier/training_data/'
+# TRAINING_DATA_DIR = 'D:/Workspace/Project_L4/acass-staff-be/classifier/training_data/eval/'
 
 CLASSIFIER_MODEL_DIR = 'D:/Workspace/Project_L4/acass-staff-be/classifier/models/'
 MNB_CLASSIFIER = 'mnb_classifier.mdl'
