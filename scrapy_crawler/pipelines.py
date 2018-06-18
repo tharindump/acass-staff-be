@@ -53,3 +53,24 @@ class JsonPipeline(object):
         #    print(url)
         print(len(self.processed_items))
 
+
+class LecturerFinderPipeline(object):
+    def __init__(self):
+        self.processed_items = set()
+        database = get_db()
+        self.matched_profiles_collectiion = database.get_collection('matched_profiles')
+
+    def process_item(self, item, spider):
+        print(item)
+        self.processed_items.add(item)
+        data = {
+            'subject': item['subject'],
+            'url': item['url']
+        }
+        # self.matched_profiles_collectiion.insert_one(data)
+
+    def close_spider(self, spider):
+        print(len(self.processed_items))
+
+
+

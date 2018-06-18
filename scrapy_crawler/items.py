@@ -11,3 +11,7 @@ import scrapy
 class UniversityWebPageItem(scrapy.Item):
     url = scrapy.Field()
     score = scrapy.Field()
+
+class LecturerPageItem(scrapy.Item):
+    url = scrapy.Field()
+    subject = scrapy.Field()
